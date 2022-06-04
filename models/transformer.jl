@@ -146,6 +146,28 @@ function (i::ImageEncoder)(x)
     F, B = size(o) # F(whole feature vector size 512) B(batch size)
     img_tokens = reshape(o,(i.token_size, div(F,i.token_size), B)) # 128 x num_q x B
     img_tokens .+ oneD_PE(img_tokens)
+    #img_tokens = dropout(img_tokens, p)
+end
+
+###########################################
+############ IMAGE ENCODER MLP ############
+###########################################
+struct ImageEncoderMLP; patch_size; token_size; linear; end
+function ImageEncoderMLP(patch_size::Int, token_size::Int)
+    ImageEncoderMLP(patch_size, token_size, Linear(patch_size*patch_size*3, token_size))
+end
+function (i::ImageEncoderMLP)(x)
+    # takes a batch of images 400x400x3xB
+    # return tokens token_size x num_t x B
+    img_size = size(x, 1)
+    batch_size = size(x, 4)
+    
+    num_tokens = div(img_size, i.patch_size) * div(img_size, i.patch_size) # the number of tokens from 1 image
+    num_feats_in = i.patch_size * i.patch_size * 3 # each patch, with RGB channels, needs to turns into a flat input vector
+    img_tokens = reshape(x, (num_feats_in, num_tokens, batch_size))
+    img_tokens = i.linear(img_tokens)
+    img_tokens .+ oneD_PE(img_tokens)
+    #img_tokens = dropout(img_tokens, p)
 end
 
 ###########################################
@@ -180,6 +202,7 @@ function (s::SentEncoder)(x)
     # returns embeddings token_size x num_t x B
     word_tokens = s.embed(x)
     word_tokens .+ oneD_PE(word_tokens)
+    #word_tokens = dropout(word_tokens, p)
 end
 
 ###########################################
@@ -209,9 +232,11 @@ function (el::EncoderLayer)(q, k, v)
     k_ = relu.(el.k_mlp(el.n1(k)))
     v_ = relu.(el.v_mlp(el.n1(v)))
     q = self_attn(q_,k_,v_) .+ q
+    #q = dropout(q, p)
     
     # ffn
     q_ = relu.(el.ffn(el.n2(q))) .+ q
+    #q_ = dropout(q_, p)
 end
 ###########################################
 ############## DECODER LAYER ##############
@@ -249,24 +274,32 @@ function (dl::DecoderLayer)(q, k, v)
     k_ = relu.(dl.k1_mlp(dl.n1(q)))
     v_ = relu.(dl.v1_mlp(dl.n1(q)))
     q = self_attn(q_,k_,v_, mask=true) .+ q
+    #q = dropout(q, p)
     
     # cross attn
     q_ = relu.(dl.q2_mlp(dl.n2(q)))
     k_ = relu.(dl.k2_mlp(dl.n2(k)))
     v_ = relu.(dl.v2_mlp(dl.n2(v)))
     q = cross_attn(q_,k_,v_) .+ q
+    #q = dropout(q, p)
     
     # ffn
     q_ = relu.(dl.ffn(dl.n2(q))) .+ q
+    #q_ = dropout(q_, p)
 end
 
 
 ###########################################
 ############### TRANSFORMER ###############
 ###########################################
-struct Transformer; imgEnc::ImageEncoder; sentEnc::SentEncoder; encL::EncoderLayer; decL::DecoderLayer; project::Linear; eos::Int; end
-function Transformer(token_size::Int, vocab_size::Int, eos:: Int)
-    imgEnc = ImageEncoder(token_size)
+#struct Transformer; imgEnc::ImageEncoderMLP; sentEnc::SentEncoder; encL::EncoderLayer; decL::DecoderLayer; project::Linear; eos::Int; end
+struct Transformer; imgEnc; sentEnc::SentEncoder; encL::EncoderLayer; decL::DecoderLayer; project::Linear; eos::Int; end
+function Transformer(token_size::Int, vocab_size::Int, eos::Int, use_conv=true)
+    if use_conv
+        imgEnc = ImageEncoder(token_size)
+    else
+        imgEnc = ImageEncoderMLP(20, token_size)
+    end
     sentEnc = SentEncoder(token_size, vocab_size)
 
     encL = EncoderLayer(token_size)
@@ -291,6 +324,7 @@ function (t::Transformer)(batch_imgs, batch_indices)
 
     # Out
     word_probs = t.project(updated_q)
+    #word_probs = dropout(word_probs)
 end
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4}, batch_indices::Matrix{Int64}, labels::Matrix{Int64})
 function (t::Transformer)(batch_imgs, batch_indices, labels)
@@ -307,9 +341,9 @@ function (t::Transformer)(batch_imgs)
         word_probs = softmax(word_probs; dims=1)
         arg_max = argmax(word_probs[:,end,1]; dims=1)[1]
         batch_indices = cat(batch_indices, arg_max; dims=1)
-        if batch_indices[end,1] == t.eos
-            break
-        end
+#         if batch_indices[end,1] == t.eos
+#             break
+#         end
     end
     img_tensor = permutedims(batch_imgs[:,:,:,1],(3,1,2))
     return img_tensor, batch_indices
