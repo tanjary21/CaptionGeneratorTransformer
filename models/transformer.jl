@@ -18,9 +18,11 @@ function Embed(vocabsize::Int, embedsize::Int)
     Embed(param(embedsize,vocabsize))
 end
 
-function (l::Embed)(x)
+function (l::Embed)(x; p=0.1)
     # Your code here
-    l.w[:,x]
+    embeddings = l.w[:,x]
+    embeddings = relu.(embeddings)
+    dropout(embeddings, p)
 end
 
 ###########################################
@@ -32,7 +34,7 @@ function Linear(inputsize::Int, outputsize::Int)
     Linear(param(outputsize,inputsize),param0(outputsize))
 end
 
-function (l::Linear)(x)
+function (l::Linear)(x; p=0.1)
     #l.w*x .+ l.b
     if length(size(x)) < 3
         result = l.w * mat(x, dims = 1) .+ l.b
@@ -42,7 +44,8 @@ function (l::Linear)(x)
         result = l.w * reshape(x, (in_feats, num_t*b)) .+ l.b
         result = reshape(result, (out_feats, num_t, b))
     end
-    result
+    result = relu.(result)
+    result = dropout(result, p)
 end
 
 ###########################################
@@ -56,11 +59,13 @@ function Preconv()
     w = map(param, w)
     Preconv(w)
 end
-function (c::Preconv)(x)
+function (c::Preconv)(x; p=0.1)
     #temp = pool(conv4(c.w[1], x))# .+ w[2]))
     #a = pool(conv4(c.w[3], temp))# .+ w[4]))
     temp = pool(relu.(conv4(c.w[1], x)))# .+ w[2]))
     a = pool(relu.(conv4(c.w[3], temp)))# .+ w[4]))
+    a = relu.(a)
+    a = dropout(a, p)
 end
 
 ###########################################
@@ -73,8 +78,9 @@ function MyResNet()
     w = map(param, w)
     MyResNet(w, m, meta)
 end
-function (r::MyResNet)(x)
+function (r::MyResNet)(x; p=0.1)
     resnet_feats = ResNetLib.resnet50(r.w, r.m, x; stage=1) # 99x99x256*B
+    resnet_feats=dropout(resnet_feats, p)
 end
 
 ###########################################
@@ -114,10 +120,11 @@ function LayerNorm(token_size::Int)
     LayerNorm(param(token_size,1), param0(token_size,1))
 end
 #function (ln::LayerNorm)(x::Knet.atype())
-function (ln::LayerNorm)(x)
+function (ln::LayerNorm)(x; p=0.1)
     avgs = mean(x, dims=1)
     stds = std(x, dims=1)
-    ln.a .* (x .- avgs) ./ (stds .+ 1e-12) .+ ln.b
+    normalized_x = ln.a .* (x .- avgs) ./ (stds .+ 1e-12) .+ ln.b
+    dropout(normalized_x, p)
 end
 
 
@@ -135,18 +142,18 @@ function ImageEncoder(token_size::Int)
     ImageEncoder(token_size, resnet, preconv, precoder)
 end
 #function (i::ImageEncoder)(x::KnetArray{Float32, 4})
-function (i::ImageEncoder)(x)
+function (i::ImageEncoder)(x; p=0.1)
     # takes a batch of images 400x400x3xB
     # return tokens token_size x num_t x B
-    resnet_feats = i.resnet(x) # 99x99x256*B
-    precoder_output = i.preconv(resnet_feats) # 20x20x1xB
+    resnet_feats = i.resnet(x; p=p) # 99x99x256*B
+    precoder_output = i.preconv(resnet_feats; p=p) # 20x20x1xB
     h, w, c, b = size(precoder_output)
     temp = reshape(precoder_output, (h*w*c,b)) # 20*20*1xB
-    o = i.precoder(temp) # 512xB (all tokens in a single vector x B)
+    o = i.precoder(temp; p=p) # 512xB (all tokens in a single vector x B)
     F, B = size(o) # F(whole feature vector size 512) B(batch size)
     img_tokens = reshape(o,(i.token_size, div(F,i.token_size), B)) # 128 x num_q x B
     img_tokens .+ oneD_PE(img_tokens)
-    #img_tokens = dropout(img_tokens, p)
+    img_tokens = dropout(img_tokens, p)
 end
 
 ###########################################
@@ -156,7 +163,7 @@ struct ImageEncoderMLP; patch_size; token_size; linear; end
 function ImageEncoderMLP(patch_size::Int, token_size::Int)
     ImageEncoderMLP(patch_size, token_size, Linear(patch_size*patch_size*3, token_size))
 end
-function (i::ImageEncoderMLP)(x)
+function (i::ImageEncoderMLP)(x; p=0.1)
     # takes a batch of images 400x400x3xB
     # return tokens token_size x num_t x B
     img_size = size(x, 1)
@@ -165,9 +172,9 @@ function (i::ImageEncoderMLP)(x)
     num_tokens = div(img_size, i.patch_size) * div(img_size, i.patch_size) # the number of tokens from 1 image
     num_feats_in = i.patch_size * i.patch_size * 3 # each patch, with RGB channels, needs to turns into a flat input vector
     img_tokens = reshape(x, (num_feats_in, num_tokens, batch_size))
-    img_tokens = i.linear(img_tokens)
+    img_tokens = i.linear(img_tokens; p=p)
     img_tokens .+ oneD_PE(img_tokens)
-    #img_tokens = dropout(img_tokens, p)
+    img_tokens = dropout(img_tokens, p)
 end
 
 ###########################################
@@ -197,12 +204,12 @@ function SentEncoder(token_size=128, vocab_size=10000)
     SentEncoder(Embed(vocab_size, token_size))
 end
 #function (s::SentEncoder)(x::Matrix{Int64})
-function (s::SentEncoder)(x)
+function (s::SentEncoder)(x; p=0.1)
     # takes a batch of worindices as input num_t x B
     # returns embeddings token_size x num_t x B
-    word_tokens = s.embed(x)
+    word_tokens = s.embed(x; p=p)
     word_tokens .+ oneD_PE(word_tokens)
-    #word_tokens = dropout(word_tokens, p)
+    word_tokens = dropout(word_tokens, p)
 end
 
 ###########################################
@@ -226,17 +233,17 @@ function EncoderLayer(token_size::Int)
             Linear(token_size, token_size))
 end
 #function (el::EncoderLayer)(q::KnetArray{Float32, 3}, k::KnetArray{Float32, 3}, v::KnetArray{Float32, 3})
-function (el::EncoderLayer)(q, k, v)
+function (el::EncoderLayer)(q, k, v; p=0.1)
     # self attn
-    q_ = relu.(el.q_mlp(el.n1(q)))
-    k_ = relu.(el.k_mlp(el.n1(k)))
-    v_ = relu.(el.v_mlp(el.n1(v)))
+    q_ = relu.(el.q_mlp(el.n1(q; p=p); p=p))
+    k_ = relu.(el.k_mlp(el.n1(k; p=p); p=p))
+    v_ = relu.(el.v_mlp(el.n1(v; p=p); p=p))
     q = self_attn(q_,k_,v_) .+ q
-    #q = dropout(q, p)
+    q = dropout(q, p)
     
     # ffn
-    q_ = relu.(el.ffn(el.n2(q))) .+ q
-    #q_ = dropout(q_, p)
+    q_ = relu.(el.ffn(el.n2(q; p=p); p=p)) .+ q
+    q_ = dropout(q_, p)
 end
 ###########################################
 ############## DECODER LAYER ##############
@@ -268,24 +275,24 @@ function DecoderLayer(token_size::Int)
             Linear(token_size, token_size))
 end
 #function (dl::DecoderLayer)(q::Knet.atype(), k::Knet.atype(), v::Knet.atype())
-function (dl::DecoderLayer)(q, k, v)
+function (dl::DecoderLayer)(q, k, v; p=0.1)
     # self attn
-    q_ = relu.(dl.q1_mlp(dl.n1(q)))
-    k_ = relu.(dl.k1_mlp(dl.n1(q)))
-    v_ = relu.(dl.v1_mlp(dl.n1(q)))
+    q_ = relu.(dl.q1_mlp(dl.n1(q; p=p); p=p))
+    k_ = relu.(dl.k1_mlp(dl.n1(q; p=p); p=p))
+    v_ = relu.(dl.v1_mlp(dl.n1(q; p=p); p=p))
     q = self_attn(q_,k_,v_, mask=true) .+ q
-    #q = dropout(q, p)
+    q = dropout(q, p)
     
     # cross attn
-    q_ = relu.(dl.q2_mlp(dl.n2(q)))
-    k_ = relu.(dl.k2_mlp(dl.n2(k)))
-    v_ = relu.(dl.v2_mlp(dl.n2(v)))
+    q_ = relu.(dl.q2_mlp(dl.n2(q; p=p); p=p))
+    k_ = relu.(dl.k2_mlp(dl.n2(k; p=p); p=p))
+    v_ = relu.(dl.v2_mlp(dl.n2(v; p=p); p=p))
     q = cross_attn(q_,k_,v_) .+ q
-    #q = dropout(q, p)
+    q = dropout(q, p)
     
     # ffn
-    q_ = relu.(dl.ffn(dl.n2(q))) .+ q
-    #q_ = dropout(q_, p)
+    q_ = relu.(dl.ffn(dl.n2(q; p=p); p=p)) .+ q
+    q_ = dropout(q_, p)
 end
 
 
@@ -311,33 +318,32 @@ function Transformer(token_size::Int, vocab_size::Int, eos::Int, use_conv=true)
 end
 #resnet
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4}, batch_indices::Matrix{Int64})
-function (t::Transformer)(batch_imgs, batch_indices)
-    img_tokens = t.imgEnc(batch_imgs)
-    print(typeof(img_tokens))
-    img_tokens = t.encL(img_tokens, img_tokens, img_tokens)
+function (t::Transformer)(batch_imgs, batch_indices; p=0.1)
+    img_tokens = t.imgEnc(batch_imgs; p=p)
+    img_tokens = t.encL(img_tokens, img_tokens, img_tokens; p=p)
     kv = img_tokens
 
     # Decoder
-    word_tokens = t.sentEnc(batch_indices)
+    word_tokens = t.sentEnc(batch_indices; p=p)
     q = word_tokens
-    updated_q = t.decL(q, kv, kv)
+    updated_q = t.decL(q, kv, kv; p=p)
 
     # Out
-    word_probs = t.project(updated_q)
-    #word_probs = dropout(word_probs)
+    word_probs = t.project(updated_q; p=p)
+    word_probs = dropout(word_probs, p)
 end
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4}, batch_indices::Matrix{Int64}, labels::Matrix{Int64})
-function (t::Transformer)(batch_imgs, batch_indices, labels)
-    word_probs = t(batch_imgs, batch_indices)
+function (t::Transformer)(batch_imgs, batch_indices, labels; p=0.1)
+    word_probs = t(batch_imgs, batch_indices; p=p)
     nll(word_probs, batch_indices)
 end
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4})
-function (t::Transformer)(batch_imgs)
+function (t::Transformer)(batch_imgs; p=0.1)
     # This function is used to predict a caption for a single image, as inference.
     batch_indices = reshape([t.eos],(1,1))
     
     while size(batch_indices,1) < 20
-        word_probs = t(batch_imgs, batch_indices)
+        word_probs = t(batch_imgs, batch_indices; p=p)
         word_probs = softmax(word_probs; dims=1)
         arg_max = argmax(word_probs[:,end,1]; dims=1)[1]
         batch_indices = cat(batch_indices, arg_max; dims=1)
