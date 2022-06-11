@@ -2,6 +2,7 @@ import pandas as pd
 import string #library that contains punctuation
 import re
 from nltk.stem import WordNetLemmatizer
+import numpy as np
 
 #defining the function to remove punctuation
 def remove_punctuation(text):
@@ -35,6 +36,11 @@ data['msg_tokenized']= data['msg_lower'].apply(lambda x: tokenization(x))
 wordnet_lemmatizer = WordNetLemmatizer()
 data['msg_lemmatized']=data['msg_tokenized'].apply(lambda x:lemmatizer(x))
 
+# batching based on length of caption
+data['length']=data['msg_lemmatized'].apply(lambda x:len(x))
+data = data[data.length>3]
+data = data.sort_values('length').reset_index()
+
 # put processed captions back into original column
 data['caption']=data['msg_lemmatized'].apply(lambda x:back_to_caption(x))
 
@@ -43,7 +49,11 @@ del data['clean_msg']
 del data['msg_lower']
 del data['msg_tokenized']
 del data['msg_lemmatized']
+del data['length']
 
+# random, but sorted split indices
+permutated_indices = np.random.permutation(data.shape[0])
+train_indices, test_indices = np.sort(permutated_indices[:40000]), np.sort(permutated_indices[40000:])
 
 # writing pre-processed annotation files:
 # full set
@@ -52,13 +62,13 @@ data.image.to_csv("archive/img_dirs.txt", sep='\t')
 data.to_csv("archive/annotations.txt", sep='\t')
 
 # training split
-data[:40000].caption.to_csv("archive/ann_caps_train.txt", sep='\t')
-data[:40000].image.to_csv("archive/img_dirs_train.txt", sep='\t')
-data[:40000].to_csv("archive/annotations_train.txt", sep='\t')
+data.caption[train_indices].to_csv("archive/ann_caps_train.txt", sep='\t')
+data.image[train_indices].to_csv("archive/img_dirs_train.txt", sep='\t')
+data.iloc[train_indices].to_csv("archive/annotations_train.txt", sep='\t')
 
 # validation split
-data[40000:].caption.to_csv("archive/ann_caps_val.txt", sep='\t')
-data[40000:].image.to_csv("archive/img_dirs_val.txt", sep='\t')
-data[40000:].to_csv("archive/annotations_val.txt", sep='\t')
+data.caption[test_indices].to_csv("archive/ann_caps_val.txt", sep='\t')
+data.image[test_indices].to_csv("archive/img_dirs_val.txt", sep='\t')
+data.iloc[test_indices].to_csv("archive/annotations_val.txt", sep='\t')
 
-
+# END
