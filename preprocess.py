@@ -57,18 +57,18 @@ train_indices, test_indices = np.sort(permutated_indices[:40000]), np.sort(permu
 
 # writing pre-processed annotation files:
 # full set
-data.caption.to_csv("archive/ann_caps.txt", sep='\t')
-data.image.to_csv("archive/img_dirs.txt", sep='\t')
-data.to_csv("archive/annotations.txt", sep='\t')
+data.caption.to_csv("archive/ann_caps.txt", sep='\t', index = False)
+data.image.to_csv("archive/img_dirs.txt", sep='\t', index = False)
+data.to_csv("archive/annotations.txt", sep='\t', index = False)
 
 # training split
-data.caption[train_indices].to_csv("archive/ann_caps_train.txt", sep='\t')
-data.image[train_indices].to_csv("archive/img_dirs_train.txt", sep='\t')
-data.iloc[train_indices].to_csv("archive/annotations_train.txt", sep='\t')
+data.caption[train_indices].to_csv("archive/ann_caps_train.txt", sep='\t', index = False)
+data.image[train_indices].to_csv("archive/img_dirs_train.txt", sep='\t', index = False)
+data.iloc[train_indices].to_csv("archive/annotations_train.txt", sep='\t', index = False)
 
 # validation split
-data.caption[test_indices].to_csv("archive/ann_caps_val.txt", sep='\t')
-data.image[test_indices].to_csv("archive/img_dirs_val.txt", sep='\t')
-data.iloc[test_indices].to_csv("archive/annotations_val.txt", sep='\t')
+data.caption[test_indices].to_csv("archive/ann_caps_val.txt", sep='\t', index = False)
+data.image[test_indices].to_csv("archive/img_dirs_val.txt", sep='\t', index = False)
+data.iloc[test_indices].to_csv("archive/annotations_val.txt", sep='\t', index = False)
 
 # END
