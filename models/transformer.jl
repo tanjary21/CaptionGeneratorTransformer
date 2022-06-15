@@ -344,7 +344,7 @@ function (t::Transformer)(batch_imgs; p=0.1)
     
     while size(batch_indices,1) < 20
         word_probs = t(batch_imgs, batch_indices; p=p)
-        word_probs = softmax(word_probs; dims=1)
+        #word_probs = softmax(word_probs; dims=1)
         arg_max = argmax(word_probs[:,end,1]; dims=1)[1]
         batch_indices = cat(batch_indices, arg_max; dims=1)
 #         if batch_indices[end,1] == t.eos

@@ -93,7 +93,7 @@ function Base.iterate(r::ImgReader, s=nothing)
         close(s)
         return nothing
     else
-        img_name = split(readline(s))[2]
+        img_name = split(readline(s))[1] #2
         img_tensor = r.preprocessor("archive/Images/$img_name")
         
     end
