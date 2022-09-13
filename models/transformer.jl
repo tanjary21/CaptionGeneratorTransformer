@@ -21,7 +21,7 @@ end
 function (l::Embed)(x; p=0.1)
     # Your code here
     embeddings = l.w[:,x]
-    embeddings = relu.(embeddings)
+    embeddings = selu.(embeddings)
     dropout(embeddings, p)
 end
 
@@ -44,7 +44,7 @@ function (l::Linear)(x; p=0.1)
         result = l.w * reshape(x, (in_feats, num_t*b)) .+ l.b
         result = reshape(result, (out_feats, num_t, b))
     end
-    result = relu.(result)
+    result = selu.(result)
     result = dropout(result, p)
 end
 
@@ -62,9 +62,9 @@ end
 function (c::Preconv)(x; p=0.1)
     #temp = pool(conv4(c.w[1], x))# .+ w[2]))
     #a = pool(conv4(c.w[3], temp))# .+ w[4]))
-    temp = pool(relu.(conv4(c.w[1], x)))# .+ w[2]))
-    a = pool(relu.(conv4(c.w[3], temp)))# .+ w[4]))
-    a = relu.(a)
+    temp = pool(selu.(conv4(c.w[1], x)))# .+ w[2]))
+    a = pool(selu.(conv4(c.w[3], temp)))# .+ w[4]))
+    a = selu.(a)
     a = dropout(a, p)
 end
 
@@ -235,14 +235,14 @@ end
 #function (el::EncoderLayer)(q::KnetArray{Float32, 3}, k::KnetArray{Float32, 3}, v::KnetArray{Float32, 3})
 function (el::EncoderLayer)(q, k, v; p=0.1)
     # self attn
-    q_ = relu.(el.q_mlp(el.n1(q; p=p); p=p))
-    k_ = relu.(el.k_mlp(el.n1(k; p=p); p=p))
-    v_ = relu.(el.v_mlp(el.n1(v; p=p); p=p))
+    q_ = selu.(el.q_mlp(el.n1(q; p=p); p=p))
+    k_ = selu.(el.k_mlp(el.n1(k; p=p); p=p))
+    v_ = selu.(el.v_mlp(el.n1(v; p=p); p=p))
     q = self_attn(q_,k_,v_) .+ q
     q = dropout(q, p)
     
     # ffn
-    q_ = relu.(el.ffn(el.n2(q; p=p); p=p)) .+ q
+    q_ = selu.(el.ffn(el.n2(q; p=p); p=p)) .+ q
     q_ = dropout(q_, p)
 end
 ###########################################
@@ -277,21 +277,21 @@ end
 #function (dl::DecoderLayer)(q::Knet.atype(), k::Knet.atype(), v::Knet.atype())
 function (dl::DecoderLayer)(q, k, v; p=0.1)
     # self attn
-    q_ = relu.(dl.q1_mlp(dl.n1(q; p=p); p=p))
-    k_ = relu.(dl.k1_mlp(dl.n1(q; p=p); p=p))
-    v_ = relu.(dl.v1_mlp(dl.n1(q; p=p); p=p))
+    q_ = selu.(dl.q1_mlp(dl.n1(q; p=p); p=p))
+    k_ = selu.(dl.k1_mlp(dl.n1(q; p=p); p=p))
+    v_ = selu.(dl.v1_mlp(dl.n1(q; p=p); p=p))
     q = self_attn(q_,k_,v_, mask=true) .+ q
     q = dropout(q, p)
     
     # cross attn
-    q_ = relu.(dl.q2_mlp(dl.n2(q; p=p); p=p))
-    k_ = relu.(dl.k2_mlp(dl.n2(k; p=p); p=p))
-    v_ = relu.(dl.v2_mlp(dl.n2(v; p=p); p=p))
+    q_ = selu.(dl.q2_mlp(dl.n2(q; p=p); p=p))
+    k_ = selu.(dl.k2_mlp(dl.n2(k; p=p); p=p))
+    v_ = selu.(dl.v2_mlp(dl.n2(v; p=p); p=p))
     q = cross_attn(q_,k_,v_) .+ q
     q = dropout(q, p)
     
     # ffn
-    q_ = relu.(dl.ffn(dl.n2(q; p=p); p=p)) .+ q
+    q_ = selu.(dl.ffn(dl.n2(q; p=p); p=p)) .+ q
     q_ = dropout(q_, p)
 end
 
@@ -333,9 +333,14 @@ function (t::Transformer)(batch_imgs, batch_indices; p=0.1)
     word_probs = dropout(word_probs, p)
 end
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4}, batch_indices::Matrix{Int64}, labels::Matrix{Int64})
-function (t::Transformer)(batch_imgs, batch_indices, labels; p=0.1)
+function (t::Transformer)(batch_imgs, batch_indices, labels; p=0.1, use_smooth_loss=false)
     word_probs = t(batch_imgs, batch_indices; p=p)
-    nll(word_probs, batch_indices)
+    if use_smooth_loss
+        return nll(word_probs, batch_indices)
+    else
+        return nll(word_probs, batch_indices)
+    end
+        
 end
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4})
 function (t::Transformer)(batch_imgs; p=0.1)
@@ -353,4 +358,66 @@ function (t::Transformer)(batch_imgs; p=0.1)
     end
     img_tensor = permutedims(batch_imgs[:,:,:,1],(3,1,2))
     return img_tensor, batch_indices
+end
+
+###########################################
+############### LR WARMUP SCHEDULE ########
+###########################################
+function compute_lr(d_model, step_num; warmup_steps=4000)
+    1/Float32(sqrt(d_model)) * min(1/Float32(sqrt(step_num)), step_num*1/Float32(sqrt(warmup_steps)^3))
+end
+
+
+###########################################
+############### LABEL SMOOTHING ###########
+###########################################
+function findindices(scores, labels::AbstractArray{<:Integer}; dims=1)
+    ninstances = length(labels)
+    nindices = 0
+    indices = Vector{Int}(undef,ninstances)
+    if dims == 1                   # instances in first dimension
+        y1 = size(scores,1)
+        y2 = div(length(scores),y1)
+        if ninstances != y2; throw(DimensionMismatch()); end
+        @inbounds for j=1:ninstances
+            if labels[j] == 0; continue; end
+            indices[nindices+=1] = (j-1)*y1 + labels[j]
+        end
+    elseif dims == 2               # instances in last dimension
+        y2 = size(scores,ndims(scores))
+        y1 = div(length(scores),y2)
+        if ninstances != y1; throw(DimensionMismatch()); end
+        @inbounds for j=1:ninstances
+            if labels[j] == 0; continue; end
+            indices[nindices+=1] = (labels[j]-1)*y1 + j
+        end
+    else
+        error("findindices only supports dims = 1 or 2")
+    end
+    return (nindices == ninstances ? indices : view(indices,1:nindices))
+end
+
+function label_smoothed_cross_entropy(scores, labels; epsilon=0.1)
+    
+    num_classes, num_word, num_sent = size(scores)
+    smooth_labels = zeros(size(scores))
+
+    negative_value = epsilon / (num_classes - 1)
+    positive_value = 1.0 - epsilon
+
+    smooth_labels .= negative_value
+
+    smooth_labels[findindices(smooth_labels, labels, dims=1)] .= positive_value
+
+    mask = Array(labels.==0)
+    smooth_labels = permutedims(smooth_labels, (2,3,1))
+    smooth_labels[mask,:] .= 0
+    smooth_labels = permutedims(smooth_labels, (3,1,2))
+    
+    # now smooth_labels and scores have same shape: (vocab size, sentence length, batch size(number of sentences in batch))
+    # now lets compute an actual loss value
+    word_probs = logsoftmax(scores; dims=1)
+    
+    mean(sum(-1.0 .* Knet.atype(smooth_labels) .* word_probs, dims=1)) 
+    
 end
