@@ -1,456 +1,392 @@
-	image	caption
-40000	2394824046_51cec8e5e7.jpg	a man is sitting in front of a buddist monument 
-40001	1346051107_9cdc14e070.jpg	a man stand by a wall playing a saxophone 
-40002	3374722123_6fe6fef449.jpg	a woman in a pink striped shirt  with her hand up 
-40003	3028561714_83fb921067.jpg	the white and brown dog is running quickly through the grass 
-40004	3437034427_6df5e9fbf9.jpg	one girl is playing a recorder while another one hold a guitar 
-40005	954987350_a0c608b467.jpg	a woman in a pink tank top drinking out of a plastic glass 
-40006	399679638_d3036da331.jpg	a brown dog and a gray dog are playing in the snow 
-40007	3327487011_1372c425fb.jpg	the young girl are listening with book in front of them 
-40008	2886837407_a4510ab1ef.jpg	two kid hugging each other 
-40009	247706586_7e25c7adf8.jpg	a man lying in the middle of a hug rock
-40010	3105691757_817083b0a6.jpg	men in santa outfit walking down busy street 
-40011	2715155329_1ed1756000.jpg	a man wearing reflective sunglass offer a big smile showing all his teeth 
-40012	2335619125_2e2034f2c3.jpg	a black dog is running through the snow 
-40013	3561639055_5ac66ae92f.jpg	a bicyclist doe maneuver
-40014	3631344685_ed0f3e091b.jpg	a baseball player just taking a swing at a stadium 
-40015	3596459539_a47aa80612.jpg	a man on a motorcycle is racing at a track 
-40016	2601008162_f00eeb5c14.jpg	the person is holding a canon camera 
-40017	3613323772_d15cef66d1.jpg	the boy on a skateboard is jumping through the air 
-40018	3019986034_7453777274.jpg	a woman in a plaid skirt and black top play an electric violin 
-40019	2832487464_2d30634e1e.jpg	a small black dog jumping over gate
-40020	2260560631_09093be4c6.jpg	a dog carry a stick through the wood 
-40021	1067180831_a59dc64344.jpg	a black and white dog jump after a yellow toy 
-40022	2912476706_9a0dbd3a67.jpg	two dog fighting in the snow 
-40023	2378356400_f6bde5d9b3.jpg	a woman and a child 
-40024	766346887_a9a9d0637a.jpg	a little girl and a little boy hold hand on a shiny slide 
-40025	3546474710_903c3c9fd3.jpg	a bald man play guitar while a spotlight is on him 
-40026	3643684044_a131168127.jpg	man in red shirt speaks into microphone
-40027	2279980395_989d48ae72.jpg	little girl lying in many colored plastic ball 
-40028	3348811097_0e09baa26f.jpg	a person jumping off of an outdoor staircase 
-40029	3006217970_90b42e6b27.jpg	a small race car with advertising is driving on a rainy track 
-40030	3376809186_4e26d880b7.jpg	many people are in the water near a hillside 
-40031	2739332078_13d9acce59.jpg	a lady posing while holding an umbrella 
-40032	2718495608_d8533e3ac5.jpg	a woman with a yellow shirt wear sunglass and smile 
-40033	3287549827_04dec6fb6e.jpg	a snowboarder is attempting a trick down an outside railing 
-40034	294353408_d459bdaa68.jpg	a jack russell terrier is jumping onto an orange sofa 
-40035	3320356356_1497e53f80.jpg	a man climb a rock 
-40036	506808265_fe84ada926.jpg	an older woman stand by turn table a another female flip off the camera 
-40037	3035785330_2fd5e32bb1.jpg	a man wrestling with a child on the floor 
-40038	1466307489_cb8a74de09.jpg	men in orange vest try to free a vehicle stuck beside a road 
-40039	3364796213_b8948913b5.jpg	people ride bike and carry black flag along a road where others are gathered 
-40040	510791586_3913ade6a7.jpg	a lit girl splash around in natural water 
-40041	2876848241_63290edfb4.jpg	green motorcycle moving fast down dirt path 
-40042	2991575785_bd4868e215.jpg	a girl doing a kick near a woman 
-40043	2447289477_e888df561d.jpg	the woman in the blue shirt sits on a bench in a museum a others pas her by 
-40044	241346402_5c070a0c6d.jpg	a man in sunglass and a blue cap looking onward 
-40045	3681651647_08eba60f89.jpg	a person wearing a colorful costume wave to a crowd 
-40046	3256274183_4eab3b2322.jpg	a man on the ground near a row of car  and another man standing holding the first man s leg 
-40047	3737539561_d1dc161040.jpg	two little boy are sitting on a clump of dirt 
-40048	3287549827_04dec6fb6e.jpg	person in gray jacket and blue pant balancing board on handrail
-40049	2277299634_e14bdb7ff7.jpg	a man on a busy street 
-40050	2649850541_59a6c7f01c.jpg	a little girl lay on the sidewalk with her face in the grass 
-40051	2322327298_7948338390.jpg	a tan dog walk across the snow 
-40052	2951092164_4940b9a517.jpg	a little boy and a little girl wearing water wing are running on a path beside a black fence 
-40053	2883907436_82bf4a36b8.jpg	an old man and his dog are standing otuside with a cart 
-40054	2137071442_1c9658c81a.jpg	young boy holding a light saber in front of a christmas tree with wrapping paper littering the floor 
-40055	3557295488_600d387347.jpg	a lacross player hitting an oppenents stick 
-40056	2594042571_2e4666507e.jpg	boy in tan hat laugh while sitting near playground equipment 
-40057	244760301_5809214866.jpg	a group of men wearing similar clothing backpack through the countryside 
-40058	501320769_31eea7b7ea.jpg	a child in a white bathrobe is standing in a doorway 
-40059	3252588185_3210fe94be.jpg	a smiling woman stand in front of a body of water with water bird 
-40060	2273105617_7c73d2d2d3.jpg	a elderly woman in a tan jacket is standing by the door of a wooden house carrying a green and beige bag 
-40061	2762301555_48a0d0aa24.jpg	a wet child shiver under a towel at a pool 
-40062	2899374885_f3b2b1a290.jpg	a baby sticking out his tonge while looking at a spraying water fountain 
-40063	2076906555_c20dc082db.jpg	a boy wearing a jean jacket with his hand on his chest smiling at the camera 
-40064	1378557186_4bd1da6834.jpg	man aiming a rifle with his dog at his side 
-40065	2814037463_74de97da86.jpg	a woman sitting down to have a meal is being pointed at 
-40066	189721896_1ffe76d89e.jpg	a young man climb a mountain  another follows below 
-40067	2951750234_a4741f708b.jpg	a woman on a horse jump an obstacle 
-40068	1454841725_4b6e6199e2.jpg	some young girl standing in a group some with their arm around each other 
-40069	3200120942_59cfbb3437.jpg	a snowboarder is jumping in the air next to the ski lift 
-40070	3174431688_ae84778db0.jpg	beautiful light accent tree on a dark night 
-40071	3432634159_1eb9a73306.jpg	a woman in a headscarf sits near child in a box decorated with flower and balloon 
-40072	3229898555_16877f5180.jpg	the white and black cat pawed at the piece of fabric 
-40073	3640407952_bb38fb9d55.jpg	man skateboarding off of a ramp 
-40074	3562470436_6e193643ce.jpg	three black dog running after an orange ball 
-40075	772212710_f5fc22ed35.jpg	two girl stand on a walkway holding several stuffed animal 
-40076	3562816250_6e14d436b1.jpg	a woman kayaking with her small dog
-40077	3119903318_d032141839.jpg	a wrestler pose in front of a series of explosion 
-40078	3459419203_cd7c68ce4d.jpg	a woman swimmer in a pool get splashed by her teammate swimming past 
-40079	1427391496_ea512cbe7f.jpg	a young child stand on a wood dock next to the water 
-40080	428796930_476a3d6395.jpg	a black dog playing with a green toy 
-40081	2785115802_137fa30000.jpg	a black and white dog is swimming 
-40082	3352531708_a65dd694b1.jpg	two child  sitting on the back of camel  near the ocean 
-40083	1510669311_75330b4781.jpg	a group of girl are posing together with male nearby 
-40084	1468103286_96a6e07029.jpg	a baseball batter raising his arm 
-40085	3584829998_25e59fdef3.jpg	a white dog and a black and white dog are playing while two more black dog move towards them 
-40086	3572144280_ea42bbd927.jpg	man without shirt climbing rock face 
-40087	3611603026_9112b0c53f.jpg	a woman with a silver bag buying food 
-40088	1312020846_5abb4a9be2.jpg	two puppy run across flat stone in garden area 
-40089	2629295654_59ea1472a1.jpg	a brown dog is running on grass 
-40090	2848977044_446a31d86e.jpg	a man at the rodeo is riding his horse while upside down and not on the saddle
-40091	3285298241_9b1ed98d19.jpg	a basketball player in a blue jersey hold the ball high 
-40092	2252403744_148fc11f68.jpg	two young child playing with each other and a ball 
-40093	2826574228_c63009e473.jpg	the girl standing on the post by the water is having her picture taken by the man with the camera 
-40094	3335097235_538f4777c3.jpg	black and white dog running outside 
-40095	2560278143_aa5110aa37.jpg	a beagle is playing in the grass 
-40096	3052104757_d1cf646935.jpg	a four wheeler jumping car 
-40097	905355838_3a43fdfd4e.jpg	baseball player looking out into a stadium crowd
-40098	2890057168_c712f932e0.jpg	the man in blue  woman in white  and child in blue stand before a silver car 
-40099	3259231890_16fe167b31.jpg	a girl in black is starring off into the distance 
-40100	3095225232_2e6e6dc92e.jpg	people go up the escalator 
-40101	2301867590_98c0ecb0cb.jpg	two child  one in red and one in blue  making snow angel 
-40102	3307563498_e2b4f19272.jpg	a child begin to climb over a chain with water on the other side 
-40103	3380643902_7e0670f80f.jpg	a longboarder catch himself before hitting the ground 
-40104	2978024878_a45b282bf4.jpg	two white dog wearing muzzle play in the grass 
-40105	2584957647_4f9235c150.jpg	a white and brown dog is carrying a stick in the water 
-40106	2074146683_7c83167aa1.jpg	a woman juggle her baby  purse  money and food from a market 
-40107	224766705_b77996527f.jpg	a line of green and red dune buggy on a gravel road near rock and large pine tree 
-40108	2888658480_e922a3dec2.jpg	two swimmer are jumping off the tall rock into the water 
-40109	1334892555_1beff092c3.jpg	two kid with helmet playing with nerf sword while one look on drinking from a plastic cup 
-40110	3599124739_b7e60cf477.jpg	two small girl laugh a a wave hit them at the beach 
-40111	2813033949_e19fa08805.jpg	a white and black dog is playing with a tennis ball near flower 
-40112	3704995657_e2e114083d.jpg	snowmobiler riding snowmobile with front end up in the air 
-40113	2465497494_43d74df57c.jpg	a boy play with sand near green grass 
-40114	3479423813_517e93a43a.jpg	a sailor steer a sailboat through a turn 
-40115	3644941648_012ec87848.jpg	a girl is jumping off a high dive in an urban setting 
-40116	2076865206_53918c820c.jpg	a man casting a fishing pole 
-40117	3374223949_90776ba934.jpg	there is a little girl sitting at the top of a red slide 
-40118	3286620180_4b00e93e8e.jpg	a group of people in red are running down the road 
-40119	710878348_323082babd.jpg	a kid with sunglass in jumping on the beach 
-40120	2830309113_c79d7be554.jpg	child in red shirt and white short hanging onto a pole
-40121	482047956_9a29e9cee6.jpg	three girl are riding on a roller coaster 
-40122	3030566410_393c36a6c5.jpg	a woman slide down a purple water slide with a small boy on her lap into a pool 
-40123	533713007_bf9f3e25b4.jpg	boy drinking  at backyard table full of bowl of food 
-40124	2750832671_4b39f06acf.jpg	a black and tan dog play with a stuffed toy 
-40125	2069279767_fb32bfb2de.jpg	two men are lying in red cot on the side of a mountain 
-40126	2932519416_11f23b6297.jpg	a bmx rider performs a jump while holding the bike with just his hand 
-40127	3405100926_e96308ce89.jpg	a group of men in green shirt and black pant holding hand
-40128	562588230_edb2c071c8.jpg	a little girl play in a blow up pool 
-40129	2602866141_be9928408d.jpg	a kid run in the opposite direction of others who were playing a game 
-40130	3323076458_3ce72a1dae.jpg	a black and brown dog is running across a muddy field 
-40131	2874984466_1aafec2c9f.jpg	a black and white dog is playing with a sheep in a field 
-40132	3562050678_4196a7fff3.jpg	a group of people on a walkway 
-40133	390986651_c801db91a0.jpg	a person peak their head out of a tent set up in a snowy field 
-40134	247618600_239eeac405.jpg	a girl is sunning herself with a purple towel over her face 
-40135	3589052481_059e5e2c37.jpg	a smiling man with his arm around a smiling woman 
-40136	3626642428_3396568c3c.jpg	dog play in creek 
-40137	2894576909_99c85fd7a7.jpg	this person in a red kayak face a challange in the rapid 
-40138	115684808_cb01227802.jpg	three men loading item on a sled 
-40139	2541901399_0a57f4cc76.jpg	a woman in a wheelchair and orange sweater follows a young boy in a park 
-40140	2914331767_8574e7703d.jpg	a darkskinned man is jumping in the air during a sport game 
-40141	3193511842_82549c21fb.jpg	a cheerleader thrown into the air
-40142	3655773435_c234e94820.jpg	a black dog swim in a large pool 
-40143	1178705300_c224d9a4f1.jpg	a brown dog jumping into a pool after a bloe ball 
-40144	47870024_73a4481f7d.jpg	a boy in yellow is riding a scooter on the street 
-40145	2173312932_269f9786fc.jpg	two white dog are playing with a brown dog and a ball 
-40146	1388970365_162edcceb4.jpg	a brown dog and two black dog in an overgrown grassy field 
-40147	3299820401_c2589186c5.jpg	a dirt biker ride through some tree 
-40148	2244551043_21b8cca866.jpg	four people wait outside in a line for ticket 
-40149	2881468095_d4ce8c0c52.jpg	a skateboarder doing trick on a brick wall next to stair 
-40150	3182558164_488b819f14.jpg	a basketball player jump up with the ball a two others watch 
-40151	3312779887_7682db7827.jpg	a person doe a handstand with a snowboard on a yellow ramp 
-40152	3090398639_68c0dfa9a5.jpg	a woman ride a bike on a dirt path 
-40153	2772532341_c4597a94ed.jpg	a woman dressed in black with a hula hoop around her waist performs in front of diner 
-40154	102455176_5f8ead62d5.jpg	an ice climber scaling a frozen waterfall 
-40155	3401902253_cd27e6d0fe.jpg	a black and white dog leaping out of the water 
-40156	2991375936_bf4b0a7dc0.jpg	a child dressed in purple and an adult dressed in black 
-40157	3391924827_53b31542ce.jpg	a biker fly through the air near sand dune 
-40158	2073174497_18b779999c.jpg	a man in black is riding a bike in the parking lot 
-40159	3672105509_53b13b2ed4.jpg	two dog are sniffing something in the rock 
-40160	1969573381_5ecfae4c80.jpg	a brown and white animal surrounded by tree 
-40161	3367851138_757d6bd2ef.jpg	a red tugboat is about to dock at a port 
-40162	2318721455_80c6644441.jpg	a boy in a diaper jump onto a bed with a striped covering and red pillow in a room with toy and a chair 
-40163	3399944164_ec24123945.jpg	a woman lay down with a camera and a man lean back on her taking the picture 
-40164	3589895574_ee08207d26.jpg	a happy child dangling from playground equipment smile at the camera 
-40165	90011335_cfdf9674c2.jpg	a white boat on glassy water with mountain in the background 
-40166	2646046871_c3a5dbb971.jpg	a child jumping in the air with his or her shirt flying open 
-40167	3624076529_9793655a21.jpg	a dog swimming with a stick in it mouth 
-40168	2247192427_5e106f24a9.jpg	three small boy play basketball indoors 
-40169	3243233886_235a80e8c7.jpg	a small blond child wearing a red jacket climb on a playground 
-40170	3240048764_acce8af2a5.jpg	two people sit in the dark  on the shore  looking at the city light 
-40171	2477121456_1ac5c6d3e4.jpg	a black dog s head rise above some water 
-40172	2736902411_a0010f89ae.jpg	two girl taking a picture of themselves
-40173	2392625002_83a5a0978f.jpg	dog wearing a coat running in a snowy field 
-40174	3250695024_93e8ab7305.jpg	three people looking concerned facing u  a girl in a backback facing away 
-40175	1392272228_cf104086e6.jpg	a black dog is coming out of the ocean water on the beach with something in it mouth 
-40176	2514612680_b0d2d77099.jpg	a man is walking next to a wall with  where are you   painted on it 
-40177	825918657_d92f1761f4.jpg	a brown and white dog with a pink frisbee in it mouth is humping over a man s back 
-40178	2085255128_61224cc47f.jpg	the boy in yellow short leap from river bank towards the river 
-40179	2492258999_5764124bba.jpg	two people are sitting against a building near shopping cart 
-40180	1562478333_43d13e5427.jpg	a man is camping on a beach shore 
-40181	3392851587_a638ff25e2.jpg	two girl hapily playing in a park 
-40182	2531531628_b4a5041680.jpg	the little girl in the blue dress is sitting on a wooden bench 
-40183	3638577494_fe55f7b4cb.jpg	a tan dog watching a brown dog swimming in a pond 
-40184	99171998_7cc800ceef.jpg	a group is sitting around a snowy crevasse 
-40185	3639967449_137f48b43d.jpg	two boy sitting and eating ice cream 
-40186	756004341_1a816df714.jpg	two child in orange sunglass 
-40187	1057089366_ca83da0877.jpg	a kid jump off the diving board and into the swimming pool below 
-40188	2721656220_5f4cda8bc1.jpg	this woman is wearing a white tshirt and holding a cup 
-40189	2937178897_ab3d1a941a.jpg	three boy riding on the back of a truck 
-40190	1814086703_33390d5fc7.jpg	two dog are running next to each other on the grass 
-40191	311146855_0b65fdb169.jpg	two people are dancing with drum on the right and a crowd behind them 
-40192	1808007704_ee8a93abb4.jpg	a man in a red shirt is jumping from one rock to another larger rocker with two male spotter below him 
-40193	3225058391_a12d38d911.jpg	a man in orange is holding up a bicycle near a crowd 
-40194	3411393875_a9ff73c67a.jpg	the man is wearing a red shirt  while the woman standing with him ha purple streak in her hair 
-40195	2812590023_50182bc417.jpg	smoke is spewing out of the back of a red race car on a racetrack 
-40196	483039719_75181b2726.jpg	a young man wearing a grey and black shirt and a white headband
-40197	256444892_efcb3bd824.jpg	a couple walking down the street 
-40198	418667611_b9995000f4.jpg	this man is surfing 
-40199	241345905_5826a72da1.jpg	a man is checking out an injured football player at a game 
-40200	2864340145_d28b842faf.jpg	a dark dog is in a body of water 
-40201	1143373711_2e90b7b799.jpg	a man wearing a helmet riding his bicycle down the street 
-40202	2831313661_1a328acb70.jpg	a man wearing jean is flying a kite near the shore 
-40203	2481598514_05a65d1f72.jpg	two child riding tricycle are passing a pink banner 
-40204	3256603992_67312b5a36.jpg	a man in a blue shirt hike through a nature trail 
-40205	3720210639_18bb34e475.jpg	a person in a red hat and shoe doing stunt on a red bike while a person in yellow watch 
-40206	380590140_25b9889772.jpg	a busy highway scene with a woman crossing a crosswalk on the left
-40207	222369445_5b6af347dd.jpg	two surfer carry their board to the end of a walkway to join the others in the water 
-40208	3403370354_5d266873b4.jpg	a man with a canned drink is standing under a waterfall 
-40209	3490186050_4cb4193d4d.jpg	a child in yellow and black kick a blue and black ball 
-40210	242064301_a9d12f1754.jpg	a man with a brown bag walk in front of a gray wall 
-40211	3182405529_7692256746.jpg	a man with a grey beard ride his bike on the beach of the ocean 
-40212	3585488964_1467945775.jpg	three dog run on beach  two playing with unknown object 
-40213	3202255152_08973fa3d7.jpg	a man wearing a helmet is doing a stunt with his bmx bike 
-40214	3665179773_dd217416fc.jpg	two teenage girl hugging  one wearing a bicycle helmet  with cyclist in the background 
-40215	308307853_5a51fbdecc.jpg	a white poodle circle a sparkler embedded in sand 
-40216	3171250845_5ae0d2a8bc.jpg	a young child and a dog are playing in the snow 
-40217	2667549961_57e5e2c0a5.jpg	a young baby crawl across the wood floor towards the water bottle 
-40218	3323498985_fd9d2803fd.jpg	a man falling over in an ocean wave
-40219	1454841725_4b6e6199e2.jpg	four girl pose in front of a crowd 
-40220	3404978479_8a81843e17.jpg	redheaded girl in the backyard sitting on a seesaw 
-40221	172092461_a9a9762e13.jpg	guy wakeboarding one handed and smiling
-40222	3126773489_7ae425af17.jpg	man run by other man with basketball at a game 
-40223	2423894412_d952d5d103.jpg	a guy is hanging on a big rock in the wood 
-40224	3460458114_35037d4d4c.jpg	a boy ha done a back flip into a swimming pool while another boy watch 
-40225	3446762868_06e9d9d899.jpg	the skateboarder is leaping in the air in front of the telegraph pole 
-40226	1016887272_03199f49c4.jpg	several climber in a row are climbing the rock while the man in red watch and hold the line 
-40227	2540751930_d71c7f5622.jpg	people meandering around in a grassy area with tree 
-40228	964197865_0133acaeb4.jpg	a child with his mouth on a red plastic toy 
-40229	515755283_8f890b3207.jpg	a police officer posing with two army officer beside his motorcycle 
-40230	337647771_3b819feaba.jpg	a pet playfully investigates the content of a gift bag 
-40231	409327234_7b29eecb4e.jpg	the woman wearing a blue shirt sits in front of a brick wall 
-40232	1309330801_aeeb23f1ee.jpg	two girl are performing trick on a trampoline 
-40233	3667492609_97f88b373f.jpg	the person is going into the water 
-40234	945509052_740bb19bc3.jpg	a girl sits on the beach under a bright pink sunshade 
-40235	1067790824_f3cc97239b.jpg	one dog is chasing another one on the beach 
-40236	502783522_3656f27014.jpg	dog running through the wood 
-40237	3396275223_ee080df8b5.jpg	three people are doing ballet exercise in extravagant costume 
-40238	3605100550_01214a1224.jpg	two dog fighting with a fence between them 
-40239	3590739067_58baffb3a7.jpg	a woman with a nylon stringed guitar is playing in a field
-40240	3613175012_bcd063e7c9.jpg	a group of bohemian stroll down the street  one with a shopping cart 
-40241	2054869561_ff723e9eab.jpg	a dog run to catch a frisbee on astroturf 
-40242	2384147448_c1869070d3.jpg	one dog with an object in it mouth is met by another dog nearby a fence 
-40243	207930963_af3a2f1784.jpg	a person in bike riding gear standing with mountain in the background 
-40244	3425127583_611200619a.jpg	a man ha a racquet in his hand and is playing a game of tennis 
-40245	3636055584_65a60426f8.jpg	three people are chasing a ball in a field hockey game 
-40246	3681324243_b69fa90842.jpg	a catcher try to beat a runner to home plate 
-40247	3251648670_9339943ba2.jpg	two boy are walking inside a humansize exercisewheel 
-40248	3486324591_9f5eeb24b9.jpg	a young boy chase away two canadian goose 
-40249	1176580356_9810d877bf.jpg	dog jump to get orange ball on his head 
-40250	3404906655_bc51c69c1e.jpg	five dog pull a man on a sled through the snow 
-40251	1594038143_57f299aa8a.jpg	a young boy in a blue jacket pull something black out of a fabric bag 
-40252	3480052428_c034b98a08.jpg	a woman holding a pitcher wait among others outside the opening of a tent 
-40253	3317145805_071b15debb.jpg	a black poodle with a rope toy in it mouth 
-40254	3402638444_dab914a3de.jpg	six people pose together for a picture on the subway 
-40255	519059913_4906fe4050.jpg	a boy doing a back flip into a swimming pool 
-40256	2542415282_9240e1b5fc.jpg	two little girl are sitting in a sandpit next to a row of sand castle 
-40257	2546959333_23b957988f.jpg	the dog is running after the bull 
-40258	1057089366_ca83da0877.jpg	the boy is jumping off a high diving board into the pool 
-40259	3330333217_1a69497a74.jpg	two african in red and blue shawl pose for a picture outside a barber shop 
-40260	2194286203_5dc620006a.jpg	a young boy and girl play together in the sand 
-40261	2137789511_69a6c6afa8.jpg	an adult riding a bike on a beach with many visible vapour trail in the sky 
-40262	3016741474_72b4355198.jpg	a man dressed a a safari hunter pose with a woman and his inflatable tiger toy 
-40263	2110692070_8aaaa1ae39.jpg	a white dog with brown spot is jumping through the air 
-40264	2247889670_413db8094b.jpg	the backview of a man dressed up in a jacket and a dog running towards him 
-40265	2533010184_ef2fd71297.jpg	a woman in a white headscarf sits near white flower 
-40266	3191027142_33e86636ca.jpg	a man with a black coat carrying a pro israel protest sign 
-40267	3495453699_1c9faedf3c.jpg	a man stand on one leg in a playful pose near a lamppost a a young girl look on 
-40268	319185571_56162796da.jpg	a small dog leap over a stream 
-40269	2701603045_6cbdc4ce7c.jpg	a boy wearing white short  walk through the water 
-40270	3331102049_bc65cf6198.jpg	a longbeaked bird in midflight 
-40271	2846037553_1a1de50709.jpg	a child in a red shirt climb on play equipment 
-40272	2256138896_3e24b0b28d.jpg	a man dressed in all black is climbing down a mountain supported by cord
-40273	3244586044_205d5ae2ba.jpg	a dog wearing a number  8  race on a track 
-40274	370614351_98b8a166b9.jpg	the man with the eccentric clothing and hair pose in a store 
-40275	248994078_a9257f448b.jpg	a doberman biting a blue ball on a grassy surface 
-40276	2243904502_2d265fed80.jpg	the dog ha retrieved his toy 
-40277	3443703471_14845d8850.jpg	two brown and black dog are jumping a fence 
-40278	518144037_9a1754b2a6.jpg	a kid with a blue mohawk is playing a violin
-40279	2883099128_0b056eed9e.jpg	a shirtless man playing tennis in an fencedin area 
-40280	3042679440_010b2c596c.jpg	a busy city street a people are walking 
-40281	2512683710_991c9d466d.jpg	a ship sail in a blue sea 
-40282	2217328285_b1d55c17ca.jpg	a black and brown dog jumping in midair near a field 
-40283	3250593457_9049a73b61.jpg	a little girl in a striped dress ha a pink scarf 
-40284	2384728877_48c85d58af.jpg	two indian woman walk down a road 
-40285	2698487246_e827404cac.jpg	three rugby player trying to catch the ball
-40286	445655284_c29e6d7323.jpg	a black dog running in the snow by some tree 
-40287	2089442007_6fc798548c.jpg	a dog with red fur stand in a body of water 
-40288	2120411340_104eb610b1.jpg	a dog and a cow are on a rocky slope 
-40289	3467843559_a457ce37b6.jpg	three young boy playing outside and posing for a picture
-40290	3497237366_366997495d.jpg	five people in a gym 
-40291	2612608861_92beaa3d0b.jpg	two girl sitting on ground
-40292	3227111573_c82f7d68b1.jpg	three people standing on a mountain about halfway to the top 
-40293	2509824208_247aca3ea3.jpg	a brown dog running through the grass 
-40294	3387630781_f421a94d9d.jpg	a baby in a baseball shirt crawl through a tube 
-40295	3242007318_01e82171aa.jpg	two woman stop to have their picture taken outside the chocolate factory 
-40296	3294179574_4f67e67d6f.jpg	a skateboarder performs a trick in front of a large crowd 
-40297	2114126343_a0f74ff63b.jpg	six girl hold a rope in the ocean 
-40298	2715289538_d77c8d0a85.jpg	a man blowing a large bubble 
-40299	3673970325_4e025069e9.jpg	a young girl kneel beside row of candle while others walk by 
-40300	3623331945_df0f51d7dd.jpg	a child is walking through wet sand wearing a blue shirt 
-40301	3584196366_a4b43d6644.jpg	a flock of seagull flying at the beach 
-40302	3551170666_01df31412d.jpg	a white dog nurse her pup 
-40303	3227423095_5049951eab.jpg	a bicyclist is making a high jump over a constructed stunt piece 
-40304	2644916196_16f91dae54.jpg	toddler with milk around his mouth 
-40305	3526018344_450c517a72.jpg	four dog two brown and two white playing in the grass 
-40306	3267644370_f2728d6c7a.jpg	a refrigerator is stuck in a bank of snow  and a man is skiing on it 
-40307	267162122_c3437414ec.jpg	a black dog and a white dog wrestle 
-40308	3433567526_00b5a70319.jpg	a longhaired dog is running across the grass toward the camera  it tongue hanging out of it open mouth 
-40309	3243591844_791cfa62eb.jpg	two woman competiting in a mock sumo wrestler competiton 
-40310	2461616306_3ee7ac1b4b.jpg	a smiling child dive into a pool 
-40311	2701271123_6761bc5f26.jpg	a black dog walking in dirt ha a soccer ball in his mouth 
-40312	3377117696_af91f13058.jpg	a skier go upside down kicking snow in the air 
-40313	3079073247_97e88e2eb7.jpg	someone riding sideways on a motorcycle 
-40314	2157173498_2eea42ee38.jpg	a man is snowboarding and jumping off of a snow hill 
-40315	2273871383_1ddb3562ea.jpg	a older man in beige stand near a younger man in blue in front of a building 
-40316	3293751640_d81a6f3a0c.jpg	young man with cap and buttoned coat stand before building 
-40317	447733067_09cfac3286.jpg	a woman wearing a helmet  tall boot  and short short walk down the street 
-40318	3301438465_10121a2412.jpg	three men wearing white uniform stand on a grass field in front of a crowd 
-40319	2908466042_bf07cb52c7.jpg	two dog play rough with each other indoors 
-40320	502115726_927dd684d3.jpg	the child in the striped shirt balanced between the wooden railing 
-40321	3674168459_6245f4f658.jpg	two woman participate in a martial art match 
-40322	3138399980_d6ab8b2272.jpg	a person wearing an orange shirt ha her hand in the air a others watch 
-40323	186890605_ddff5b694e.jpg	a man is swinging on a rope swing into a lake 
-40324	2616643090_4f2d2d1a44.jpg	a baby chew on plant 
-40325	241031670_e60f59b8e4.jpg	three girl holding umbrella with their back to the camera 
-40326	3113322995_13781860f2.jpg	the dog run in the snow pulling a sled with a person 
-40327	3542425197_2ef81c6051.jpg	two people perform on a stage with electric guitar 
-40328	251586160_a31b187a37.jpg	a black dog sprint near the blue fence 
-40329	185057637_e8ada37343.jpg	a group of five people stand outdoors 
-40330	3618525295_d32d634b2e.jpg	the dog begs for some food at a local restaurant 
-40331	422756764_e7eaac76bf.jpg	a puppy playing with a ball 
-40332	3549583146_3e8bb2f7e9.jpg	a young boy ha his mouth open a he ride his bike outdoors past a stone wall 
-40333	3568605391_54ec367d88.jpg	two policeman are standing and one policeman is sitting on his motorcycle 
-40334	425518464_a18b87c563.jpg	woman wrapped in blanket sits on bench and read in park 
-40335	3330680118_4e541889c1.jpg	a boy  bundled up  siting on a one person sleigh  in the snow 
-40336	3621177753_1718c30ea0.jpg	these skateboarder are attempting stunt at night 
-40337	3197891333_b1b0fd1702.jpg	a family posing by the mantle and christmas tree 
-40338	3690425778_3b390b3ea5.jpg	a person jumping off a dock into water 
-40339	3571039224_b34fa2f94c.jpg	a black dog in shallow water 
-40340	1075867198_27ca2e7efe.jpg	a man with two dog on a beach
-40341	2886411666_72d8b12ce4.jpg	a tricolored dog is running on the green grass 
-40342	3535284878_f90f10236e.jpg	a white dog with a black harness run on a rocky shore 
-40343	3336211088_4c294a870b.jpg	a busy plaza with several people having conversation 
-40344	3486831913_2b9390ebbc.jpg	a brown dog on the grass next to a pond 
-40345	2565350330_c7f305e7f7.jpg	a man laying in the grass under a tree 
-40346	3131632154_098f86f4cb.jpg	two black dog in the snow 
-40347	3466891862_9afde75568.jpg	a little white and tan dog running through the grass with a stick in his mouth 
-40348	1189977786_4f5aaed773.jpg	a dog jumping into a swimming pool 
-40349	1412832223_99e8b4701a.jpg	a girl jumping in sand 
-40350	3528105511_12ff45dc9c.jpg	a person riding a dirt bike 
-40351	3702436188_2c26192fd0.jpg	a boy wearing a white shirt and pink shoelace jumping on a railing
-40352	2407091303_931c918490.jpg	a little boy stand widelegged  each foot on each side of the tube slide 
-40353	2205328215_3ffc094cde.jpg	a long bicyclist wearing a white helmet riding down a mountain path
-40354	2752341621_54490b9b09.jpg	five people walk through the snow wearing exotic clothes 
-40355	2385744837_8780f6731a.jpg	a boy in a red jacket slide down the ice 
-40356	2728276857_3f83757ef2.jpg	a group of woman hugging each other
-40357	3508522093_51f6d77f45.jpg	young boy in green shirt rolling on a cart into a pile of leaf 
-40358	2451285022_59255e7fd9.jpg	a man hold his brown dog back from jumping in the water 
-40359	2588456052_8842b47005.jpg	a female tennis player prepairing to serve the ball 
-40360	3561543598_3c1b572f9b.jpg	men in uniform take part in a ceremony with flag 
-40361	3185409663_95f6b958d8.jpg	child running on the beach 
-40362	540721368_12ac732c6c.jpg	a young girl in a yellow flowered sundress hold something in her right hand to her mouth 
-40363	480200554_6155e9dfeb.jpg	an elderly man wearing a sombrero riding a mobility scooter while shopping for shoe 
-40364	3560977956_e08d2cd531.jpg	a man and a woman are sitting in a rowboat on calm water 
-40365	2846785268_904c5fcf9f.jpg	rollerblader grinding a yellow road barrier
-40366	2504277798_936a09c74d.jpg	a young woman shoot a gun at a target 
-40367	3521201948_9049197f20.jpg	five muzzled greyhound are running in a grassy field 
-40368	3541483943_9776baee7c.jpg	a man wearing a grey shirt is doing a skateboard trick on stair 
-40369	3245266444_2e798096e6.jpg	two kid underneath a sheet playing with a white dog 
-40370	2272967004_1531726d71.jpg	a man with a snowboard sits atop a mountain looking at the view 
-40371	3732728142_86364a706e.jpg	a baby in a baby seat wearing a red beanie that say  love  
-40372	2780105274_52360c4cca.jpg	a woman is wearing a green striped shirt and a brown skirt 
-40373	3655074079_7df3812bc5.jpg	a naked woman wearing body paint riding a bicycle 
-40374	3356369156_074750c6cc.jpg	a boat with a roof on green water 
-40375	3545793128_af3af544dc.jpg	a group of fan gather for some type of event 
-40376	2257294002_0073263c54.jpg	three child do jumping jack in a public place while a man sits and look on 
-40377	3640348910_fcd627ec66.jpg	the skateboarder is riding the ramp next to the very big painting 
-40378	2335428699_4eba9b6245.jpg	four child on a trampoline  in a snow covered area 
-40379	3174453534_fcc927c647.jpg	a woman hold a new baby wearing yellow in an old photograph 
-40380	2270483627_16fe41b063.jpg	a tan dog splashing in water on the bank of a pond or river 
-40381	464506846_1734302b58.jpg	a dog with a muzzle on 
-40382	2553619107_d382a820f9.jpg	man in yellow kayak fall in the rapid 
-40383	3479423813_517e93a43a.jpg	a man piloting behind the wheel of a boat 
-40384	582899605_d96f9201f1.jpg	a woman is holding two child while sitting on the grass 
-40385	3221036999_3f7b152d8a.jpg	this man is doing a stunt on a skateboard outdoors 
-40386	3590753142_61993d39df.jpg	three people standing on boardwalk looking at building across the water 
-40387	3724150944_fc62e8d5e0.jpg	child playing soccer near the goal net 
-40388	1329832826_432538d331.jpg	this is a picture of a broadway rite aid pharmacy that ha a bright neon sign and people are prepared to cross the street in front of it 
-40389	2367816288_7c2d11d3c5.jpg	a boy cut a flip in the grass 
-40390	2539933563_17ff0758c7.jpg	a woman with glowing shoe at an outdoor event 
-40391	3616808182_fb4eaec778.jpg	the biker is riding down a grassy mountainside 
-40392	2570559405_dc93007f76.jpg	the dog are behind the fence 
-40393	3122606953_a979dd3d33.jpg	two large black dog run through the snow 
-40394	410422753_de506155fa.jpg	a black and brown dog run through the snow next to some tree 
-40395	3380407617_07b53cbcce.jpg	a child stand in the snow 
-40396	3380364224_2626d9d354.jpg	a man on a snow cover hill is snowboarding 
-40397	3177799416_5bd0382370.jpg	a snowboarder is coming down a hill 
-40398	2525666287_638ab5e784.jpg	two people wait on a bench 
-40399	3425851292_de92a072ee.jpg	the tennis player is wearing a yellow and blue shirt and a blue headband 
-40400	3727752439_907795603b.jpg	the lady is holding her glass 
-40401	2552723989_7bc93e0f7b.jpg	a boy lay on the pavement after falling off his bike 
-40402	3587077732_0933f1677b.jpg	a boy splashing in a puddle 
-40403	2079554580_f18d5c181b.jpg	a dalmatian run through the wood 
-40404	662606040_8cc8cd9f1b.jpg	a small dog is running behind a red ball thrown towards bush 
-40405	1419385780_1383ec7ba9.jpg	a man with gelled hair in a mohawk style sitting in the shade 
-40406	3182258223_5b9c8a8c55.jpg	two girl stand up against a red wall 
-40407	799431781_65dc312afc.jpg	three little boy sit together making face 
-40408	3262849619_0bc4f88ef9.jpg	a brown and white dog walk in the snow with a big chunk of snow in his mouth 
-40409	2264316030_600e55748d.jpg	a brown dog is running through snowy woodland 
-40410	3128514681_a51b415c31.jpg	two woman on the side of a road 
-40411	2804851816_9aae9071ca.jpg	the brown dog is running through the dry grass with a ball in it mouth 
-40412	3465473743_7da0c5d973.jpg	two kid go down a purple water slide on a innertube 
-40413	2120411340_104eb610b1.jpg	a dog and a cow are standing on a hillside 
-40414	447111935_5af98563e3.jpg	two dog play in the grass 
-40415	2930616480_7fd45ca79b.jpg	a laughing woman wear a purple feathered hat and caution tape 
-40416	157139628_5dc483e2e4.jpg	man spray sand image of a man 
-40417	3606093421_eddd46c2c7.jpg	two men ride an orange raft to shore 
-40418	2176874361_2b4149010b.jpg	a dog and a cow play together inside the fence 
-40419	3385593926_d3e9c21170.jpg	two brown dog playfully fight in the snow 
-40420	2873431806_86a56cdae8.jpg	a child wearing pink boot is splashing in a puddle behind the red truck 
-40421	3320680380_b0d38b3b4a.jpg	a young skier receives a lesson in the snow from an adult 
-40422	2825540754_5e0c13e6b8.jpg	a kid with a bucket run from a wave
-40423	3003011417_79b49ff384.jpg	child paddle on a craft 
-40424	2422482455_b98d9c2120.jpg	a person playing with her large black dog 
-40425	2559638792_a803ff63d1.jpg	a swimmer in a dark blue suit swimming backstroke 
-40426	478750151_e0adb5030a.jpg	a white dog race a brown dog in a field of grass 
-40427	2461372011_ebbf513766.jpg	a person climb a snowy hill while a black dog follows 
-40428	3667822570_d39850e217.jpg	a soccer player tackle a player from the other team 
-40429	3085667767_66041b202e.jpg	the surfer doe a flip off of a wave 
-40430	1808370027_2088394eb4.jpg	the dog swim towards a waterfall 
-40431	3319405494_58dee86b21.jpg	two people are going over a skii jump while one look into the camera 
-40432	368954110_821ccf005c.jpg	a girl in a purple top hold a toddler between herself and another girl on the grass in front of a bush 
-40433	3286406057_a1668655af.jpg	two girl looking down at something  one is smiling 
-40434	1009434119_febe49276a.jpg	a dog run on the green grass near a wooden fence 
-40435	3651971126_309e6a5e22.jpg	a black dog and a yellow dog are walking on asphalt next to a field of grass 
-40436	3490517179_76dbd690de.jpg	a group of young men are about to play soccer on a sandy plain 
-40437	1491192153_7c395991e5.jpg	a man putting a little boy wearing orange into a child swing 
-40438	1089755335_0bfbfd30e6.jpg	a woman and three child stand on a deck with a fishing pole 
-40439	2868136205_3cf679208d.jpg	a toddler ride a plastic vehicle while another watch in the background 
-40440	2878705136_609dfbf318.jpg	a woman in a blue shirt and headscarf pose for a picture sitting at a picnic table 
-40441	1296412797_85b6d2f8d6.jpg	a child is being swung by her arm while another child watch 
-40442	2328616978_fb21be2b87.jpg	a woman wearing a cowboy hat and carrying luggage 
-40443	470903027_489cc507de.jpg	man on green grass  mountain and semicloudy sky in background 
-40444	3005124440_c096b310fb.jpg	three people with political sign 
-40445	536537638_f5ee42410b.jpg	a small group of asian woman wearing red head scarf and black shirt are shopping 
-40446	3321334180_8f764e0e0f.jpg	a beautiful white bird take off in flight 
-40447	2493974889_50ae29f1e1.jpg	two child walking down a path in the wood 
-40448	118309463_a532b75be9.jpg	a boy baseball team wear their uniform 
-40449	2363419943_717e6b119d.jpg	a mother and child run hand in hand through chinatown in an american city 
-40450	3477315700_52a4d740a5.jpg	a little girl in a harness is in midair on a sunny day 
-40451	990890291_afc72be141.jpg	a man on a bicycle is on only the back wheel 
-40452	2865376471_43c5e6b941.jpg	two large dog greet other while their owner watch 
-40453	3634281981_d9cf1d1a33.jpg	a man ride his bike on the side of a rocky hill 
-40454	2095444126_201ff9f222.jpg	a dog shake his head 
+index	image	caption
+10512	1626754053_81126b67b6.jpg	dog jumping for frisbee
+1336	2473737724_355599a263.jpg	two girl karate fighting
+38549	339822505_be3ccbb71f.jpg	a performer wearing a h
+28374	3320756943_9d004f9824.jpg	people sit on bench 
+36542	2540757246_5a849fbdcb.jpg	people stand and talk 
+36387	2292406847_f366350600.jpg	man rowing a boat 
+15921	2925737498_57585a7ed9.jpg	a man smile outdoors 
+11767	3540515072_8c951b738b.jpg	a black dog jumping 
+23323	290019324_23582048d4.jpg	a dog is running 
+23399	2266901263_4324af1f03.jpg	child wear soccer uniform 
+32810	3119875880_22f9129a1c.jpg	child playing on rock 
+29333	2490365757_b869282cb3.jpg	a man photographing tulip 
+31739	365584746_681f33fa46.jpg	an elderly woman pushing a stroller
+7027	3007214949_a4b027f8a3.jpg	child playing on a trampoline 
+6643	3391924827_53b31542ce.jpg	a cyclist jumping into the air
+25875	3095225232_2e6e6dc92e.jpg	people ride up an escalator 
+7646	950273886_88c324e663.jpg	rock climber without a rope 
+832	2519483556_2b1632a18c.jpg	the three girl have pillow 
+27597	3017373346_3a34c3fe9d.jpg	two dog in the water 
+11921	3277162496_dff7eeb59e.jpg	three dog playing on grass 
+11441	61209225_8512e1dad5.jpg	a recreation of some battle 
+12965	2700147489_f1664f2b61.jpg	man with beard doing skateboarding stunt
+12302	2247192427_5e106f24a9.jpg	four young boy play basketball 
+17430	236144859_52f9e38885.jpg	black dog with white puppy 
+5638	3306951622_93b82cac21.jpg	a person surfing a big wave 
+25284	2699733386_c346c87ea6.jpg	a black dog wading through water 
+10413	2328104318_5a43ca170c.jpg	a man wearing glass is drawing 
+11778	2085403342_a17b0654fe.jpg	the child is walking through straw 
+6806	2460134050_06de9f5c4a.jpg	the dog is running while looking up
+6541	491405109_798222cfd0.jpg	a upside down girl s face 
+18812	1523800748_a59e980eee.jpg	two child run towards the lagoon 
+17919	2292406847_f366350600.jpg	a man row his boat below 
+17799	3287969199_08e775d896.jpg	a blue bird flying over water 
+2794	2021602343_03023e1fd1.jpg	a boy hold a basketball angerly 
+2833	3274879561_74997bbfff.jpg	doe jump over wood and wire fence
+31282	3637966641_1b108a35ba.jpg	five little boy are playing baseball 
+37756	3572144280_ea42bbd927.jpg	man without shirt climbing rock face 
+2218	2823200990_7b02b7cc36.jpg	a boy jumping off a chair 
+458	2339106348_2df90aa6a9.jpg	the girl were in the crowd 
+31542	3606942887_1159d92548.jpg	a swimmer swimming butterfly in a pool
+37238	3692593096_fbaea67476.jpg	airplane emitting heavy red colored smoke 
+2536	3428038648_993a453f9e.jpg	a boy playing with a racquet 
+33496	2243904502_2d265fed80.jpg	the dog ha retrieved his toy 
+33879	3590647207_2d4ec3f52c.jpg	several people on horseback carrying flag 
+30116	2502079538_10ef2e976b.jpg	a camel carry two people stuff 
+35096	3445296377_1e5082b44b.jpg	two child play in the melting slush 
+13747	309238565_2d5d8dc8bf.jpg	family purchasing standing at a vending machine 
+22382	3677514746_26f5588150.jpg	martial artist are sparring against one another 
+7040	308956341_642589e9cc.jpg	a wet dog is shaking off water 
+20965	2709648336_15455e60b2.jpg	the dog leap to catch the frisbee 
+7106	3568197730_a071d7595b.jpg	a japanese swordsman jump into the air 
+622	3289817083_4e78e1c05a.jpg	a child and parent pet a horse 
+17823	337793983_ac5b2e848e.jpg	a couple men sitting outside of a bar
+16103	3455757720_7aeba57056.jpg	a small dog running on a beach 
+16379	3293596075_973b0bfd08.jpg	the dog run in the deep snow 
+16354	2688902319_52ceaf4a2a.jpg	a monk walk down a city street 
+36001	3128164023_ebe8da4c32.jpg	two white dog with brown marking playing 
+31477	1523800748_a59e980eee.jpg	boy and girl running along the beach 
+39920	978580450_e862715aba.jpg	the small child come up from underwater 
+39937	103195344_5d2dc613a3.jpg	a man sits near a large statue 
+5122	2710416789_555180e399.jpg	a chubby asian boy is wearing glass 
+26281	3279025792_23bfd21bcc.jpg	a black labrador bound across the snow 
+30046	322791392_aa3b142f43.jpg	a dog run with a multicolored ball 
+28885	3141293960_74459f0a24.jpg	person doing a skateboard trick in midair 
+3568	339350939_6643bfb270.jpg	a black dog chase bird on the shoreline
+28352	894928353_002a3d5f06.jpg	three child climb on a livestock fence 
+2724	2942798367_022df04b49.jpg	two girl on an amusement park ride 
+24155	2376878930_dd3e7cc544.jpg	boy running along court with tennis racket 
+24621	3433259846_800a6079f0.jpg	some girl dance while waving gauzey fabric 
+2838	2573625591_70291c894a.jpg	three dog are running in a field 
+23753	559102835_472ff702b5.jpg	two child play soccer on green grass 
+39002	3223224391_be50bf4f43.jpg	a gray fuzzy dog running through snow 
+23673	3278777548_290b881018.jpg	people walking on a bridge over water 
+23479	3523559027_a65619a34b.jpg	many people in formation on a field 
+2982	1117972841_2b9261f95f.jpg	a dog running fast in the sand 
+5466	2866093652_aa717eb9ce.jpg	four woman competitively rollerskating around an area 
+39480	269650644_059a84ece5.jpg	an outdoor ice skating rink full of people 
+38488	377872472_35805fc143.jpg	three dog are playing around in the snow 
+11417	3251648670_9339943ba2.jpg	two boy running in a giant metal wheel 
+12317	3497238310_2abde3965d.jpg	a line of basketball player doing a drill 
+32409	2324917982_f3db8c11e9.jpg	a small child play with a batman toy car
+32193	1957371533_62bc720bac.jpg	black and white dog shaking it wet head 
+32697	3629492654_619d7b67ee.jpg	a silhouette of a skateboarder in the air 
+32083	3339916063_63b960ed46.jpg	boy wearing hat play in a soccer game 
+33420	2108799322_e25aa6e185.jpg	a black dog in running in a field 
+24515	2673564214_3a9598804f.jpg	four child are playing on a bouncy castle 
+29494	3549011001_26cace3646.jpg	three men on wooden boat in front of building
+30082	2427558437_3e839056d7.jpg	two dog pas each other near some water 
+29357	3186527735_6e9fe2cf88.jpg	a woman walk with another person at night 
+31149	3676788491_01e9bc5f15.jpg	a man standing in front of a yellow building
+35722	3422394336_e465f60b7c.jpg	a brown furry animal stand behind some plant 
+17210	2186367337_0ce9ce2104.jpg	a black dog run through the black mud 
+16579	3141440149_00becbbb93.jpg	two little boy are standing in a kitchen 
+36874	2160266952_a2ab39191b.jpg	a boy and a girl bouncing on a ball
+36847	3358621566_12bac2e9d2.jpg	two people are standing inside of a market 
+21298	2595186208_9b16fa0ee3.jpg	a black dog jumping off of a dock 
+22194	3419916411_72934edcdb.jpg	a golden retriever is running in a grassy field
+33917	3458434150_2b0d619244.jpg	a rock climber is descending off a large rock
+20212	2257631407_1529b9db39.jpg	two peoplw with top of head on grass 
+19838	3439128755_84409b8823.jpg	two dog fetching an object in a field 
+3111	3323528927_7b21081271.jpg	a little boy is jumping up and down 
+4230	2715035273_8fc8b1291c.jpg	woman are walking at night under neon light 
+6133	3461106572_920c8c0112.jpg	a group of 5 people standing wearing name badge
+10653	1117972841_2b9261f95f.jpg	a brown dog is running in the sand 
+6755	2787868417_810985234d.jpg	a girl run through sprinkler on a lawn 
+1551	3594822096_e1144b85d6.jpg	a man ride his bike through the wood 
+7926	523991446_65dbc5a4a5.jpg	the large dancer is slinging her hair around 
+2597	2604825598_593a825b5b.jpg	two dog in harness running in tall grass 
+2615	1119015538_e8e796281e.jpg	the small dog is running across the lawn 
+10023	3690883532_d883f34617.jpg	two people are hiking in a mountainous region 
+2197	3492734013_e6b177ed99.jpg	a crowd scene with pigeon in a plaza 
+5820	3636543173_15f56515e5.jpg	two young men are posing for the camera 
+5016	1478606153_a7163bf899.jpg	a tan longhaired dog is running in the forest
+8047	3461106572_920c8c0112.jpg	a group of people posing in a concert area 
+27457	3177799416_5bd0382370.jpg	someone is snowboarding down a hill  shredding snow 
+8211	307327914_f98f576adb.jpg	a closeup of an older man with glass speaking 
+33846	1404832008_68e432665b.jpg	a man in a harness land in the water 
+5106	3150380412_7021e5444a.jpg	the wet brown dog is running in the water 
+26430	639865690_d66d480879.jpg	two boy play with large stick in the yard 
+9057	2818735880_68b3dfe1f5.jpg	five brown dog are walking down a grassy path 
+36161	3130970054_04a3865c43.jpg	four kid holding hand jump into a swimming pool 
+26635	3030823649_3b7b6c728d.jpg	a tan and black dog chase a yellow ball 
+2003	317109978_cb557802e1.jpg	a brown dog hop over a fallen tree branch 
+17063	3703413486_3c682732a0.jpg	two boy looking out the window of an rv 
+35085	2192411521_9c7e488c5e.jpg	a man bicycle down the street and point his finger
+27087	3618504267_d7eaa495d0.jpg	mutltiple people are walking small dog near a tent 
+24721	508432819_3d055f395d.jpg	an off road vehicle climb over a dirt hill 
+3797	1313961775_824b87d155.jpg	a girl wearing a life vest float in water 
+6799	2986671935_0c60bbb3fa.jpg	several cyclist wearing different color riding bike on pavement 
+29336	3568219100_dfbffddccd.jpg	a man climbing a rocky outcropping while another watch 
+29341	2195620255_6693479734.jpg	two golden retriever running in a snow dusted field 
+20786	3672109677_8caa992671.jpg	young girl in dancing outfit perform on a stage 
+5552	1499581619_a5f65a882c.jpg	a couple dressed in hoodies kissing on the beach 
+32568	476233374_e1396998ef.jpg	two kid playing on a pebble beach by the water
+25086	2760716468_b541e9fd0f.jpg	man with duffel bag sitting on a concrete curb 
+21580	3636247381_65ccf8f106.jpg	a baseball is being thrown at a volleyball net 
+3194	2410320522_d967f0b75c.jpg	large dog play with two smaller dog on grass 
+31345	2785108434_cd4a1c949c.jpg	a child jumping in the air on the beach 
+3323	3252985078_c4ee2aca4e.jpg	a large pack of men jog in a race 
+13690	3030823649_3b7b6c728d.jpg	the german shepherd dog is chasing after a ball 
+9942	3688005475_d200165cf7.jpg	a young boy is underwater in a swimming pool 
+15178	3028561714_83fb921067.jpg	a white and brown dog run in a field 
+38363	2326730558_75c20e5033.jpg	a beige dog and brown dog in the snow 
+10109	2477121456_1ac5c6d3e4.jpg	a black dog s head rise above some water 
+4105	2831723637_30d4456665.jpg	a brown and white dog is running around a pole 
+38151	3259992164_94600858b3.jpg	two men are performing on a sidewalk a a crowd watch
+23714	3397633339_d1ae6d9a0e.jpg	man in a yellow kayak is paddling through the rapid 
+23694	3700346840_bb80d622f7.jpg	a grey bird fly over the water by some rock 
+23885	229954612_a4438297ee.jpg	some people are crossing a green bridge over a river 
+19027	166507476_9be5b9852a.jpg	two oriental lizard are fighting for dominance in a small pond
+33308	2936707421_8e629874b8.jpg	the little kid just missed a soccer kick for the goal
+18885	3475111806_f0d2927707.jpg	the crowd is gathering for an event at best buy 
+7820	2827964381_408a310809.jpg	two brown and black dog wrestle in the long grass 
+7813	2534502836_7a75305655.jpg	a small brown and white dog running through tall grass 
+19524	112243673_fd68255217.jpg	three people on motorbike follow a trail through dry grass 
+2720	566446626_9793890f95.jpg	a girl hanging upsidedown with a house in the background 
+21705	482882719_165722082d.jpg	a person fly backward off a blue raft near rapid 
+21486	203114209_e4cd71a6b7.jpg	a woman ride an inflatable tube pulled by a boat 
+29972	3411579899_0f8ed09142.jpg	a biker speed down a dirt path in the wood 
+21244	2130203183_49bae96b96.jpg	a brown dog sits outside next to a large snowbank 
+6851	394136487_4fc531b33a.jpg	the fireman is pulling the hose to a car fire 
+32115	2092419948_eea8001d0f.jpg	a man walk down a path next to a waterway 
+20606	3553225222_f5ebe44af1.jpg	a child who is celebrating their graduation in a field 
+38260	3101378069_f8caa14c0a.jpg	a man piloting a boat with good in the back 
+32223	3169394115_2193158cee.jpg	a dog stand on a bench while snow is falling 
+6443	1392272228_cf104086e6.jpg	a black dog carrying an object out of the water 
+26972	241345811_46b5f157d4.jpg	a coach talk to a football player during a timeout 
+17272	3338217927_3c5cf3f7c6.jpg	a dog jump to catch a toy in the snow 
+37357	3702038926_966fdaa311.jpg	four boy and a girl on a sidewalk and grass 
+11466	2812590023_50182bc417.jpg	a budweisersponsored race car accelerates quickly with smoke behind it 
+40289	3405942945_f4af2934a6.jpg	boy in striped  hooded coat run down grassy hill 
+17105	3122579598_14841c038a.jpg	two boy and a white dog stand in a park 
+27604	2130203183_49bae96b96.jpg	a brown dog sits alone in front of a snowbank 
+39956	3472066410_065b4f99d3.jpg	a girl in a green jacket leap in the air 
+17350	3066491113_86569e15be.jpg	a dog run with a large plate in it mouth 
+17398	3537452619_3bd79f24e0.jpg	a boy on a skateboard balance on a red beam 
+16597	3409506817_775e38d219.jpg	a small limousine is parked outside a large older structure 
+27325	911527312_f81ee36b97.jpg	a boy wearing red shoe is climbing in a tree 
+16765	424379231_23f1ade134.jpg	a tan and white dog is walking on a beam 
+16737	1449692616_60507875fb.jpg	thie little girl is taking a picture with a camera 
+25296	2098646162_e3b3bbf14c.jpg	two dog are staring at a grey and white cat 
+36566	2698666984_13e17236ae.jpg	a loan runner participates in a race in the rain 
+9375	3717809376_f97611ab84.jpg	two young child ride on the swing at a playground 
+33803	3613424631_3ae537624f.jpg	a man sits on the stair next to his bike 
+9425	2784625888_71a421e171.jpg	a black dog jump a hurdle in a grassy area 
+11835	424506167_01f365726b.jpg	a large and small dog interact in a grassy field 
+5070	3729525173_7f984ed776.jpg	a lady sitting on a front porch reading a book 
+15171	3423802527_94bd2b23b0.jpg	parade of cheerleader wearing black  pink and white uniform 
+25112	2978024878_a45b282bf4.jpg	two white dog wearing muzzle jump over a white board 
+26863	3576312396_799c873f3e.jpg	a group of people in boat racing towards the shore 
+34679	3295391572_cbfde03a10.jpg	a child playing with building block on a wooden table 
+5605	2553550034_5901aa9d6c.jpg	a young boy wearing a white hat is climbing rock 
+5076	309430053_cc58bcc36a.jpg	a boat float near someone swimming in clear  blue water 
+27103	386656845_4e77c3e3da.jpg	a scruffy golden dog meeting a black doberman in the snow 
+40327	3211581957_df2f7e2236.jpg	a horse leap a hurdle with a rider on it back 
+27072	2355093195_87fb7f82cb.jpg	two men are holding onto a rope climbing up forceful water 
+212	3325974730_3ee192e4ff.jpg	person in a purple coat making a jump on a snowboard 
+25221	3408130183_f038bdaa4f.jpg	a black and a brown dog are walking through the wood 
+5924	2646046871_c3a5dbb971.jpg	a boy wearing a flowered shirt raise his arm and jump 
+24450	261490838_2f3ac98b12.jpg	a dog chasing a deer in a field of yellow flower 
+5836	1303727066_23d0f6ed43.jpg	a smiling bearded man wear a shirt with an orange peace sign
+11735	3118534315_cc03e5ddab.jpg	the man is shooting video of another writing on a pole 
+12357	2298661279_016d87ba2f.jpg	a boy in red prepares to slide down a blue slide 
+25716	1026685415_0431cbf574.jpg	a dog in grass with a blue item in his mouth 
+3834	3477681171_b1bb8b211d.jpg	a female jump with arm and leg spread near a dwelling 
+40207	3655074079_7df3812bc5.jpg	a naked girl covered in painted flower design riding a bicycle 
+11529	2960422620_81889a3764.jpg	a man and a boy standing around a bunch of pigeon 
+29526	1007129816_e794419615.jpg	a man with gauge and glass is wearing a blitz hat 
+18209	957682378_46c3b07bcd.jpg	a brown dog is grabbing the collar of a black dog 
+2316	3220009216_10f088185e.jpg	two child and an adult standing next to a tree limb 
+2427	2623939135_0cd02ffa5d.jpg	a woman in a dress raise her arm over her head 
+18359	2444935470_7b0226b756.jpg	a little boy is standing alone in the a wooded park 
+17673	3398746625_5199beea71.jpg	a man doing a handstand in shallow water on the beach 
+17960	1404832008_68e432665b.jpg	a man on a zip line being propelled through the water 
+8469	697490420_67d8d2a859.jpg	a man in a bathing suit stand near a yellow kayak 
+33038	2752331711_cb18abba5a.jpg	a man sits in a chair while holding a large pole 
+19317	3665569615_9a71c4b6e4.jpg	a profession baseball player pitch a ball in a baseball game 
+33153	411175971_0fffd3b8c6.jpg	a dog happily play in tidal overflow on a cloudy day 
+19286	2089542487_b4c1ee7025.jpg	a hiker is ready to take on a rugged outdoor trail 
+13661	2295447147_458cfea65a.jpg	a light brown dog with a dark collar bounding through grass 
+37862	954987350_a0c608b467.jpg	a woman wearing a pink tank top holding a mug of liquid
+18968	2483993827_243894a4f9.jpg	white  black  and brown greyhound racing in numbered shirt 
+9066	2095478050_736c4d2d28.jpg	a man and a boy play music a little girl watch 
+36592	2479162876_a5ce3306af.jpg	a dog walk down the dirt road a a person follows 
+2091	1119015538_e8e796281e.jpg	a little tan dog with large ear running through the grass 
+17295	2205088706_d7e633e00d.jpg	boy in red jumping forward on sand  hill in background 
+14809	3005126574_49c28ffbee.jpg	a black man is wearing a brown shirt and a necklace 
+35680	3514278386_de2343577e.jpg	a woman in a baseball uniform tag another with her mitt 
+16666	3009018821_ba47396e24.jpg	woman playing badminton in the pool while another woman look on 
+16755	3219210794_4324df188b.jpg	a man in black ride a bike on a wooden ramp 
+20706	3386953179_84c2d7922f.jpg	a snowboarder wearing a red jacket is going down a mountain 
+7350	3628043835_9d9bd595a7.jpg	a man in white flees men dressed a law enforcement agent 
+21689	3275711232_e261143664.jpg	a person in winter clothes cover their face with a sweater 
+21845	242559369_9ae90ed0b4.jpg	a naked woman kneel on the rock of a shallow stream 
+729	1335617803_4fbc03dab0.jpg	two boy wearing matching blue polo shirt strike a goofy pose 
+38742	3353278454_2f3a4d0bbc.jpg	the people await to cross the street while walking the dog 
+3220	1554713437_61b64527dd.jpg	a brown dog walk on top of a felled tree trunk 
+12754	3349194268_0ee555c9a2.jpg	two young lady are sitting in some yellow flower and smiling 
+19888	3099091086_f75f0ce09d.jpg	a march to protest the construction of a coal power plant 
+35270	1474474514_b3eb492722.jpg	a little boy wearing a blue shirt is playing around large tire 
+36577	3019923691_3b3c5a4766.jpg	a black dog wearing an orange collar is entangled with fishing wire 
+30778	3361210233_962d630ec5.jpg	a dog run through the snow with a stick in it mouth 
+31162	2844747252_64567cf14a.jpg	a small dog watch two big dog playing rough in a field 
+1801	3408274796_0dc62225e9.jpg	a dog with a stick in his mouth run in a forest 
+3583	2632366677_43dee456a5.jpg	a tan dog sits in the sand by a beach looking sad 
+4776	468141298_3154d717e1.jpg	people stand outside of a building that ha car parked in front 
+1760	3171250845_5ae0d2a8bc.jpg	a boy in a yellow and black coat playing with brown dog 
+33555	3014986976_0e7b858970.jpg	outdoor area crowded with jeep packed with people  seen from behind 
+28351	2364096157_eb7970a69a.jpg	a black and brown dog carry a red toy in his mouth 
+2453	3263395801_5e4cee2b9e.jpg	a person ride a motorbike on a dirt path surrounded by tree 
+38162	549520317_af3d5c32eb.jpg	a toddler in tan pant and a red hoddie on a slide 
+39589	539493431_744eb1abaa.jpg	the guy is holding a black stick in front of a playground 
+31591	3633396324_c4b24b1f51.jpg	an old man wearing a hat sitting staring off into the distance 
+2119	1067790824_f3cc97239b.jpg	a white and black dog and a brown dog in sandy terrain 
+651	707972553_36816e53a2.jpg	a child in a straw hat stand on stone at a beach 
+1010	1263801010_5c74bf1715.jpg	a person in a red coat looking out at a snowy landscape 
+29507	1801663973_5ad393caeb.jpg	a woman with pink hair dressed in black talk to a man 
+3941	2887798667_ce761d45e8.jpg	a person in grey is riding a bike on a brick wall 
+24536	2594336381_a93772823b.jpg	a little boy with a messy face sitting on a colorful blanket 
+15912	2228022180_9597b2a458.jpg	a large group of asian child sit on or stand near step 
+23145	2826647354_650ff5eb03.jpg	two young boy ride small bike on the road of a neighborhood 
+23944	2249865945_f432c8e5da.jpg	a white dog in a black coat is standing in the snow 
+23903	2587106431_1cc0e719c6.jpg	three young boy wearing school uniform pose and smile for the camera 
+18077	3621177753_1718c30ea0.jpg	a night scene of a skateboarder on a ramp  with onlooker 
+19129	2427490900_5b7a8874b9.jpg	a group of people sitting on the ground outside of a monument 
+7969	3163563871_cef3cf33ea.jpg	a boy in a white shirt and blue shirt is playing tennis 
+24156	2226587791_66e29dd01d.jpg	baby in the water being held up by an adult s arm 
+17004	3264650118_be7df266e7.jpg	a man skiing through a wintry wooded area wearing a red jacket 
+16992	3093970461_825b0cac2f.jpg	two teenage girl are standing on beside the beach listening to ipod 
+21792	1670592963_39731a3dac.jpg	there is a brown and white dog jumping off of a seesaw 
+11788	894928353_002a3d5f06.jpg	two young boy and a young girl playing on a gaurd rail 
+12410	2283966256_70317e1759.jpg	a dog with a snub nose smell for somthing on a riverbank 
+5478	3582685410_05315a15b8.jpg	two woman climb on top of rock in front of the ocean 
+22127	3597924257_d0da3c5fe6.jpg	a brown dog run through a field of grass spotted with yellow flower
+13475	3347798761_5c5260b000.jpg	a dirt bike rider is in the air pulling off a trick 
+13553	2231847779_1148d1c919.jpg	a baby with two finger up it nose  covered in chocolate pudding
+22141	3136404885_f4d8f1d15a.jpg	two men walking past a graffited wall scene of a red classic car
+21922	495055747_a75872762a.jpg	an elderly woman in blue and red cross the street in a crosswalk 
+20102	2294516804_11e255807a.jpg	a baby sits by his red and green toy pulling a funny face 
+20563	2085403342_a17b0654fe.jpg	a child in a bright red jacket run through a pile of hay 
+31901	2072574835_febf0c5fb9.jpg	three racing dog are running out of the starting gate on a track 
+7933	3585598356_8ce815bbb9.jpg	two woman are showing different facial expression and wearing gold and purple costume 
+2636	300922408_05a4f9938c.jpg	a black man and a large  golden dog are on the beach 
+31230	3154886184_ac842655b6.jpg	a man jump over a staircase with a skateboard  doing a trick 
+13751	2647049174_0fb47cee2e.jpg	the little boy wearing the blue shirt is putting dirt in his mouth 
+10287	3514188115_f51932ae5d.jpg	little girl and older male  holding hand and walking on train track 
+37446	3675825945_96b2916959.jpg	a skateboarder hanging off the edge of a bowl at a skate park 
+14018	2646046871_c3a5dbb971.jpg	a child jumping in the air with his or her shirt flying open 
+39126	1130369873_d80a1aa59c.jpg	a red dog  holding a ball  splash through vegetation filled water 
+39363	442594271_2c3dd38483.jpg	people are on the beach and there is a kite in the air 
+8912	3282897060_8c584e2ce8.jpg	a woman is sitting up asleep with her head resting on her hand 
+34614	339350939_6643bfb270.jpg	black dog running behind three bird on shore with wave in the background 
+36963	3657016761_d553e514d9.jpg	the little girl in her bathing suit stand near the sprinkers and squeal 
+35714	2180356743_b3a3c9a7f6.jpg	a boy watch his classmate play in a courtyard  looking from above 
+16463	2280525192_81911f2b00.jpg	a brown and black dog jumping through a field of long blade of grass
+24096	3646927481_5e0af1efab.jpg	a green motorcycle is being jumped over a line of ten green motorcycle 
+5455	2670560883_7e7b563092.jpg	four young child playing on a stone bear with people in the background 
+28972	3415003392_139c0f3586.jpg	a person wearing a black helmet ride a red bike through the wood 
+6399	2844747252_64567cf14a.jpg	two dog are fighting over a toy and another dog is chasing them 
+5918	2661138991_d55aa0e5dc.jpg	the soldier look out the window a he sits with his leg crossed 
+26959	365759754_6cf7068c9a.jpg	a black dog is running through the snow with something in it mouth 
+26196	3030079705_0dee8a3e89.jpg	a man lie on a blue blanket with a child on his back 
+23315	502115726_927dd684d3.jpg	a boy in a striped shirt straddling the side of a playground bridge 
+8528	1132772170_600610c5df.jpg	a young child jumping on the bed a a man look the other way 
+18823	2714674623_8cd05ac114.jpg	man wearing hat and tshirt with  genetic freak  sleeping on public transportation 
+15869	1802092493_7b44fdb6b9.jpg	two little girl in matching dress pose with two little boy in matching outfit 
+8491	2209496328_2a34fd201d.jpg	a golden labrador is swimming through water with a red toy in it mouth 
+17435	3425846980_912943b4f9.jpg	the tennis player get ready to hit the ball that is almost at him 
+10441	3356642567_f1d92cb81b.jpg	a girl in a white and pink sweater is looking up through tree branch 
+12905	3478877323_0a507a601b.jpg	an asian boy and an asian girl are running through a field of tulip 
+11088	3014169370_fc4059352e.jpg	a man wearing a yellow shirt jump into a lake surrounded by two waterfall 
+5188	418667611_b9995000f4.jpg	a surfboard is shown gliding through the water with a person standing on it 
+11740	3475005101_6f6e437459.jpg	a baseball player crouching to catch the ball a a runner slide to safety 
+14976	3335375223_b4da8df523.jpg	a man in a greenglow vest is standing next to an orange advertising sign 
+28109	1454841725_4b6e6199e2.jpg	some young girl standing in a group some with their arm around each other 
+14668	2382411771_a16145f345.jpg	a white dog wrestle with a black and brown dog on the green grass 
+888	2265096094_8cc34d669c.jpg	a mule is carring a man in a cart next to some palm tree 
+31363	3443460885_46115463b4.jpg	a litle girl stand on a rocky shore at look out at the water 
+2777	2458269558_277012780d.jpg	a blonde boy in a white and orange tshirt is playing on a swing 
+20518	241345533_99c731403a.jpg	a coach wearing a white shirt and hat on the sideline of a game 
+7190	3193335577_9bdbaf9f70.jpg	a boy in a red shirt with arm outstretched on the side of hill 
+22995	307994435_592f933a6d.jpg	a man in a red jacket is holding a piece of paper while posing 
+9965	2535746605_8124bf4e4f.jpg	a little girl in a red coat run in the green grass toward the pavement 
+23013	3604314527_5077cd9d43.jpg	a racer in a blue car towing a man in a black suit on the street
+3835	2324779494_5e72d29171.jpg	a young boy in a costume with a glove that ha very long sharp finger 
+32610	3076052114_233f42ae5b.jpg	two black dog run in a grass field with two white sheep in the background 
+38211	3352697012_751b079bbb.jpg	two female wrestler with long  blonde hair  fighting in front of a crowd 
+32712	3404906655_bc51c69c1e.jpg	a man in a blue jacket riding a dog sled over a snow covered plain 
+20293	2766854400_640e2abe08.jpg	a young boy in an orange shirt ha wild hair after sliding down a slide 
+29574	2061397486_53a61e17c5.jpg	a brown and black dog is running along a grassy path wearing a red jacket 
+23390	3576259024_9c05b163aa.jpg	a man on a motorcycle is jumping over a dirt hill in front of spectator 
+20597	531197115_2be4d5034b.jpg	a man walk under a sign advertising a beauty parlor affixed to a dilapidated building 
+30074	2085078076_b9db242d21.jpg	a young black child stand on the edge of a body of water near bucket 
+36500	757046028_ff5999f91b.jpg	a man play a drum and a little boy hit his own  little drum 
+28498	3222496967_45d468ee66.jpg	the blonde woman holding a newspaper is smiling at the man in the white shirt 
+36179	3612538549_2828b45867.jpg	a young boy fall back with his mouth open when sand is falling on him 
+14749	3009383694_e045c6169e.jpg	a man is bungee jumping from a platform whilst being watched by someone above him 
+24638	3485486737_953f9d3be2.jpg	a man in the back of a van take a picture of a yellow truck 
+12018	3003011417_79b49ff384.jpg	a group of child are sitting on a raft wearing blue helmet and carrying paddle 
+12841	3490044563_8eb551ef59.jpg	a woman is wearing a dust mask on her mouth whilst walking in the street 
+27011	3288274849_07ff76ee93.jpg	a snowboarder is going down a snowy hill next to a staircase behind a building 
+8529	2294688426_96c8614f1d.jpg	a man dressed in a black poncho stand in the middle of a parking lot 
+5257	325576658_59f68bdbd6.jpg	a man is sitting on a blue bench with a blue blanket covering his face 
+4060	540338917_57069687be.jpg	a man in a gray shirt and black short pose in front of a mountain 
+6862	3425756814_13909354d4.jpg	a tennis player hold one hand to his mouth and the other hold a racket 
+40053	195962790_3380aea352.jpg	a woman sits with her foot in a shallow pool and look at a puppy 
+32844	2934359101_cdf57442dc.jpg	a boxer is being examined in his corner by a member of his support team 
+18198	3336831820_5c5df4b033.jpg	a group of people talking and another group looking at photograph taped to the wall 
+12953	3319586526_3994e9cd58.jpg	a group of silk clad performer dance in the street a a sparse crowd watch 
+35005	1597557856_30640e0b43.jpg	a brown dog is jumping up at a woman who is wearing a brown skirt 
+36717	3631671718_d712821757.jpg	a young girl in a pink shirt get ready to swing bat at a tee ball game
+39688	3662406028_29b9e46a6f.jpg	two men in tuxedo and tophats stand on the street a a boy with backpack pass by
+25006	3317333893_9d0faa8d30.jpg	a black dog wearing a red collar is running through snow next to a wooden fence 
+39515	3187395715_f2940c2b72.jpg	a boy on skateboard is making a jump from a blue bench beside a white wall 
+3508	2676649969_482caed129.jpg	an aged woman is looking into the camera while the inside of her hut is shown 
+20929	2813033949_e19fa08805.jpg	a white and black dog is jumping in the air trying to catch a tennis ball 
+30621	3046431231_dc48851062.jpg	four woman dressed in costume  one with a pink wig  look to the left 
+18321	241345942_ea76966542.jpg	the football player in red keep the football away from the player in purple and white 
+22915	2335619125_2e2034f2c3.jpg	a black dog with his mouth open and tongue out run across an expanse of snow 
+7838	2455286250_fb6a66175a.jpg	a child hold a soccer ball above their head while a group of seated people watch 
+33597	3134341610_3c55e373a7.jpg	santa and a woman drink wine next to the christmas tree while wearing joke disguise glass 
+36591	3393152604_27bd1037f2.jpg	a dog is pawing at a fallen log nearby a stream in an area with pinestraw 
+32722	2652522323_9218afd8c2.jpg	a young asian girl with a woman play with a blue ball in a part setting 
+13271	2690538407_7ca157be85.jpg	a little boy ha a pacifier in his mouth and throwing up a sign with his hand 
+28604	2987775031_3f9ac69319.jpg	a person in face paint and an orange oversized cowboy hat ride his bike on a trail 
+13388	3342487512_fd33971dea.jpg	a snowboarder make a jump and doe a trick with his pink  blue  black board 
+12613	3330333217_1a69497a74.jpg	two people  one in blue and one in red  stand in front of a building 
+33295	3466891862_9afde75568.jpg	the small fluffy white dog run through the green grass with a tiny stick in it mouth 
+30808	2551632823_0cb7dd779b.jpg	the man ha curly brown hair  is eating an apple  and wearing a black shirt 
+10743	535830521_aa971319fc.jpg	a woman with ear muff hold a paper that say  real change  on the cover 
+16311	3163198309_bbfe504f0a.jpg	there are several people watching a person in the air with sky surrounded by mountain and snow 
+5232	1392272228_cf104086e6.jpg	a black dog with a stick in it mouth is walking out of the water onto a beach 
+6807	3113769557_9edbb8275c.jpg	a woman stand tall in front of a glass display while another woman take a picture of something 
+2452	2836553263_b1a08c25ea.jpg	a boy with a black shirt and white short on a bike is turning to look behind himself 
+329	3125041578_c1f2d73b6d.jpg	an ice speed skater is skating on the ice wearing a red  blue  and grey uniform 
+7587	3543294190_0037c59607.jpg	a man performing a trick on a bicycle by standing on the pedal while the bike is upright 
+25543	2169067981_cc19268f23.jpg	two boy in blue clothing are pulling on a rope while one boy is touching a brown chair 
+7552	2172526745_649f420569.jpg	a young boy at a water park pouring a bucket water on a young girl in a swimsuit 
+12418	3374054694_fa56f29267.jpg	a large black and white dog jump up to get something held by a woman wearing a black jacket 
+15689	78984436_ad96eaa802.jpg	a german shepherd dog is running behind another german shepherd dog that is carrying a stick in it mouth 
+23852	2826769554_85c90864c9.jpg	a dog bound across the sandy beach with a stick in his mouth and water splashing off his paw 
+1265	3703107969_175da4b276.jpg	an extreme bicyclist is performing a jump with his bicycle and rotating the bicycle while he is in the air 
+4532	3708244207_0d3a2b2f92.jpg	a man stand on a dock near several boat  while 2 other men are on one of the boat 
+33253	1466307489_cb8a74de09.jpg	three man in hi viz jacket are pulling attempting to pull a trapped four wheel drive car from a ditch 
+14783	2975253472_0f0c2dea70.jpg	one man in a red shirt is falling  while another man in a blue shirt watch during a soccer game 
+39481	408627152_1feaa4b94e.jpg	a shite dog in an orange life vest looking at a man in a blue shirt while riding in a boat 
+34481	3335692531_dd4a995f91.jpg	three large dog  one brown and the others black  tussle over a red toy in the grass outside a building 
+21194	2089542487_b4c1ee7025.jpg	the man is posing for a picture in the desert wearing a green shirt and hat  and holding a metal detector 
+33617	2208055895_37cd8e1edf.jpg	a man in a stripy hat is standing in a house built from ice that ha a pair of boot in the doorway 
+15123	532457586_bddfc5251d.jpg	a shirtless man with a brown and white dog looking at a woman in jean and a bikini top who is relaxing on a bench 
+16052	2906054175_e33af79522.jpg	one musician is standing on a musical drum which ha been lifted in the air by a few people at the concert and another musician is playing another musical instrument 

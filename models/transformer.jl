@@ -300,7 +300,7 @@ end
 ############### TRANSFORMER ###############
 ###########################################
 #struct Transformer; imgEnc::ImageEncoderMLP; sentEnc::SentEncoder; encL::EncoderLayer; decL::DecoderLayer; project::Linear; eos::Int; end
-struct Transformer; imgEnc; sentEnc::SentEncoder; encL::EncoderLayer; decL::DecoderLayer; project::Linear; eos::Int; end
+struct Transformer; imgEnc; sentEnc::SentEncoder; encS::Vector{EncoderLayer}; decS::Vector{DecoderLayer}; project::Linear; eos::Int; end
 function Transformer(token_size::Int, vocab_size::Int, eos::Int, use_conv=true)
     if use_conv
         imgEnc = ImageEncoder(token_size)
@@ -309,24 +309,29 @@ function Transformer(token_size::Int, vocab_size::Int, eos::Int, use_conv=true)
     end
     sentEnc = SentEncoder(token_size, vocab_size)
 
-    encL = EncoderLayer(token_size)
-    decL = DecoderLayer(token_size)
+    encS = [EncoderLayer(token_size) for _ in 1:6]
+    decS = [DecoderLayer(token_size) for _ in 1:6]
 
     project = Linear(token_size, vocab_size)
     
-    Transformer(imgEnc, sentEnc, encL, decL, project, eos)
+    Transformer(imgEnc, sentEnc, encS, decS, project, eos)
 end
 #resnet
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4}, batch_indices::Matrix{Int64})
 function (t::Transformer)(batch_imgs, batch_indices; p=0.1)
     img_tokens = t.imgEnc(batch_imgs; p=p)
-    img_tokens = t.encL(img_tokens, img_tokens, img_tokens; p=p)
+    for encL in t.encS
+        img_tokens = encL(img_tokens, img_tokens, img_tokens; p=p)
+    end
     kv = img_tokens
 
     # Decoder
     word_tokens = t.sentEnc(batch_indices; p=p)
     q = word_tokens
-    updated_q = t.decL(q, kv, kv; p=p)
+    for decL in t.decS
+        q = decL(q, kv, kv; p=p)
+    end
+    updated_q = q
 
     # Out
     word_probs = t.project(updated_q; p=p)
@@ -336,9 +341,9 @@ end
 function (t::Transformer)(batch_imgs, batch_indices, labels; p=0.1, use_smooth_loss=false)
     word_probs = t(batch_imgs, batch_indices; p=p)
     if use_smooth_loss
-        return nll(word_probs, batch_indices)
+        return label_smoothed_cross_entropy(word_probs, labels)
     else
-        return nll(word_probs, batch_indices)
+        return nll(word_probs, labels)
     end
         
 end
