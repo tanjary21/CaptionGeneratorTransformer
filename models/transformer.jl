@@ -1,5 +1,7 @@
 using Knet, Test, Base.Iterators, Printf, LinearAlgebra, Random, CUDA, IterTools, DelimitedFiles, Statistics
 Knet.atype() = KnetArray{Float32}
+#Knet.atype() = Array{Float32}
+
 using Images, TestImages, OffsetArrays, Colors
 using Plots
 
@@ -55,7 +57,7 @@ struct Preconv; w; end
 function Preconv()
     w = Any[xavier(Float32, 7,7,256,20), zeros(Float32,1,1,1,1,1),
             xavier(Float32,7,7,20,1), zeros(Float32,1)]
-    w = map(Knet.array_type[], w)
+    w = map(Knet.atype(), w) #w = map(Knet.array_type[], w)
     w = map(param, w)
     Preconv(w)
 end
@@ -73,8 +75,8 @@ end
 ###########################################
 struct MyResNet; w; m; meta; end
 function MyResNet()
-    w, m, meta = ResNetLib.resnet50init(trained=true)#, etype=KnetArray{Float32})#, stage=0)
-    w = map(Knet.array_type[], w)
+    w, m, meta = ResNetLib.resnet50init(trained=true, atype=Knet.atype())#, stage=0)
+    w = map(Knet.atype(), w) #w = map(Knet.array_type[], w)
     w = map(param, w)
     MyResNet(w, m, meta)
 end
@@ -173,7 +175,7 @@ function (i::ImageEncoderMLP)(x; p=0.1)
     num_feats_in = i.patch_size * i.patch_size * 3 # each patch, with RGB channels, needs to turns into a flat input vector
     img_tokens = reshape(x, (num_feats_in, num_tokens, batch_size))
     img_tokens = i.linear(img_tokens; p=p)
-    img_tokens .+ oneD_PE(img_tokens)
+    img_tokens = img_tokens .+ oneD_PE(img_tokens)
     img_tokens = dropout(img_tokens, p)
 end
 
@@ -208,7 +210,7 @@ function (s::SentEncoder)(x; p=0.1)
     # takes a batch of worindices as input num_t x B
     # returns embeddings token_size x num_t x B
     word_tokens = s.embed(x; p=p)
-    word_tokens .+ oneD_PE(word_tokens)
+    word_tokens = word_tokens .+ oneD_PE(word_tokens)
     word_tokens = dropout(word_tokens, p)
 end
 
@@ -300,7 +302,7 @@ end
 ############### TRANSFORMER ###############
 ###########################################
 #struct Transformer; imgEnc::ImageEncoderMLP; sentEnc::SentEncoder; encL::EncoderLayer; decL::DecoderLayer; project::Linear; eos::Int; end
-struct Transformer; imgEnc; sentEnc::SentEncoder; encS::Vector{EncoderLayer}; decS::Vector{DecoderLayer}; project::Linear; eos::Int; end
+struct Transformer; token_size::Int; imgEnc; sentEnc::SentEncoder; encS::Vector{EncoderLayer}; decS::Vector{DecoderLayer}; project::Linear; eos::Int; end
 function Transformer(token_size::Int, vocab_size::Int, eos::Int, use_conv=true)
     if use_conv
         imgEnc = ImageEncoder(token_size)
@@ -314,7 +316,7 @@ function Transformer(token_size::Int, vocab_size::Int, eos::Int, use_conv=true)
 
     project = Linear(token_size, vocab_size)
     
-    Transformer(imgEnc, sentEnc, encS, decS, project, eos)
+    Transformer(token_size, imgEnc, sentEnc, encS, decS, project, eos)
 end
 #resnet
 #function (t::Transformer)(batch_imgs::KnetArray{Float32, 4}, batch_indices::Matrix{Int64})
@@ -425,4 +427,25 @@ function label_smoothed_cross_entropy(scores, labels; epsilon=0.1)
     
     mean(sum(-1.0 .* Knet.atype(smooth_labels) .* word_probs, dims=1)) 
     
+end
+
+function init_optimizer(model)
+    for p in params(model)
+        p.opt = Adam(lr=compute_lr(model.token_size, 1; warmup_steps=4000), beta1=0.9, beta2=0.98, eps=1e-9, gclip=0)
+    end
+end
+
+function warm_adam_update(loss, model, iter)
+    d_model = model.token_size
+    new_lr = compute_lr(d_model, iter; warmup_steps=4000)
+
+    for p in params(model)
+        g = grad(loss, p)
+        if g == nothing
+            continue
+        else
+            p.opt.lr=new_lr # update the lr attribute of the parameter's Adam optimizer object
+            update!(p, g)
+        end
+    end
 end

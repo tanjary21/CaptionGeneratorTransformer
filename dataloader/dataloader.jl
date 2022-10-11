@@ -1,5 +1,6 @@
 using Knet, Test, Base.Iterators, Printf, LinearAlgebra, Random, CUDA, IterTools, DelimitedFiles, Statistics
 Knet.atype() = KnetArray{Float32}
+#Knet.atype() = Array{Float32}
 using Images, TestImages, OffsetArrays, Colors
 using Plots
 
