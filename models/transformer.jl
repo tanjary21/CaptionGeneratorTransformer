@@ -154,7 +154,7 @@ function (i::ImageEncoder)(x; p=0.1)
     o = i.precoder(temp; p=p) # 512xB (all tokens in a single vector x B)
     F, B = size(o) # F(whole feature vector size 512) B(batch size)
     img_tokens = reshape(o,(i.token_size, div(F,i.token_size), B)) # 128 x num_q x B
-    img_tokens .+ oneD_PE(img_tokens)
+    img_tokens = img_tokens .+ oneD_PE(img_tokens)
     img_tokens = dropout(img_tokens, p)
 end
 
@@ -435,17 +435,29 @@ function init_optimizer(model)
     end
 end
 
-function warm_adam_update(loss, model, iter)
+function warm_adam_update(loss, model, iter; freeze=true)
     d_model = model.token_size
     new_lr = compute_lr(d_model, iter; warmup_steps=4000)
 
-    for p in params(model)
-        g = grad(loss, p)
-        if g == nothing
-            continue
-        else
-            p.opt.lr=new_lr # update the lr attribute of the parameter's Adam optimizer object
-            update!(p, g)
+    if freeze && :resnet in fieldnames(typeof(model.imgEnc))
+        for p in params([model.imgEnc.preconv, model.imgEnc.precoder, model.sentEnc, model.encS, model.decS, model.project])
+            g = grad(loss, p)
+            if g == nothing
+                continue
+            else
+                p.opt.lr=new_lr # update the lr attribute of the parameter's Adam optimizer object
+                update!(p, g)
+            end
+        end
+    else
+        for p in params(model)
+            g = grad(loss, p)
+            if g == nothing
+                continue
+            else
+                p.opt.lr=new_lr # update the lr attribute of the parameter's Adam optimizer object
+                update!(p, g)
+            end
         end
     end
 end
